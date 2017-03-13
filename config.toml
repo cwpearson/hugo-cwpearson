@@ -1,7 +1,7 @@
 baseurl = "https://cwpearson.github.io"
 title = "Carl Pearson"
 copyright = "&copy; 2017 Carl Pearson"
-theme = "hugo-academic-master"
+theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 
