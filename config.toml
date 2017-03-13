@@ -9,7 +9,7 @@ footnotereturnlinkcontents = "<sup>^</sup>"
 disqusShortname = ""
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "UA-54975774-2"
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
@@ -23,10 +23,10 @@ defaultContentLanguageInSubdir = false
   role = "PhD Candidate"
   organization = "University of Illinois Urbana-Champaign"
   organization_url = "http://www.ece.illinois.edu/"
-  avatar = "portrait.jpg"
+  avatar = "headshot.jpeg"
   email = "[[my last name]]@illinois.edu"
-  address = ""
-  office_hours = ""
+  address = "227 Coordinated Science Lab MC 228, 1308 W. Main St., Urbana, Illinois 61801"
+  office_hours = "Email for appointment"
   phone = ""
   skype = ""
   telegram = ""
@@ -155,7 +155,7 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "Publications"
-  url = "#publications_selected"
+  url = "#publications"
   weight = 2
 
 [[menu.main]]
