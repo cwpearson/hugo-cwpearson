@@ -14,8 +14,11 @@ weight = 60
 
 +++
 
-I have been a teaching assistant for the following courses
+I have been a teaching assistant for the following courses:
 
 - ECE408/CS483: Heterogeneous Parallel Programming at the University of Illinois
+- E155: Microprocesser-based Systems: Design & Applications at Harvey Mudd College 
+- E85: Digital Electronics and Computer Architecture at Harvey Mudd College
 
-I have also been a teaching assistant for the PUMPS Summer School in Barcelona.
+I have also been a teaching assistant for the Programming and Tuning Massively Parallel Systems
+[(PUMPS)](http://bcw.ac.upc.edu/PUMPS2017/) summer school in Barcelona since 2014.

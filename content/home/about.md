@@ -14,6 +14,7 @@ weight = 1
   interests = [
     "High Performance Computing",
     "Compilers",
+    "High-level Programming Languages and Frameworks",
     "Cognitive Computing"
   ]
 
