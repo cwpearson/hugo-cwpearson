@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks on Carl Pearson</title>
+    <link>https://cwpearson.github.io/talk/index.xml</link>
+    <description>Recent content in Recent &amp; Upcoming Talks on Carl Pearson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Carl Pearson</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Experience and Impact of Combining GPUS with Scientific Codes on Blue Waters</title>
+      <link>https://cwpearson.github.io/talk/2017bluewaters/</link>
+      <pubDate>Fri, 01 Sep 2017 04:52:00 -0500</pubDate>
+      
+      <guid>https://cwpearson.github.io/talk/2017bluewaters/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GPU Performance Nuggets</title>
+      <link>https://cwpearson.github.io/talk/2016nuggets/</link>
+      <pubDate>Wed, 15 Jun 2016 04:14:45 -0500</pubDate>
+      
+      <guid>https://cwpearson.github.io/talk/2016nuggets/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

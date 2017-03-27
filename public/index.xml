@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Carl Pearson on Carl Pearson</title>
+    <link>https://cwpearson.github.io/index.xml</link>
+    <description>Recent content in Carl Pearson on Carl Pearson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Carl Pearson</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Experience and Impact of Combining GPUS with Scientific Codes on Blue Waters</title>
+      <link>https://cwpearson.github.io/talk/2017bluewaters/</link>
+      <pubDate>Fri, 01 Sep 2017 04:52:00 -0500</pubDate>
+      
+      <guid>https://cwpearson.github.io/talk/2017bluewaters/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RAI: A Scalable Project Submission System for Parallel Programming Courses</title>
+      <link>https://cwpearson.github.io/publication/2017dakkak/</link>
+      <pubDate>Mon, 29 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://cwpearson.github.io/publication/2017dakkak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cognitive Application Builder</title>
+      <link>https://cwpearson.github.io/project/cab/</link>
+      <pubDate>Mon, 13 Mar 2017 21:24:51 -0500</pubDate>
+      
+      <guid>https://cwpearson.github.io/project/cab/</guid>
+      <description>&lt;p&gt;The Cognitive Application Builder (CAB) is part of the joint UIUC / IBM C3SR cognitive computing systems research center. CAB will allow cognitive application developers to quickly write and debug high-performance scalable cogntitive computing applications.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>High-Performance Application Studies</title>
+      <link>https://cwpearson.github.io/project/app_studies/</link>
+      <pubDate>Mon, 13 Mar 2017 04:40:57 -0500</pubDate>
+      
+      <guid>https://cwpearson.github.io/project/app_studies/</guid>
+      <description>&lt;p&gt;I am part of the IME-Accelerators team for the NCSA PAID program. This program pairs domain scientists with computing specialists to improve effective utilization of the Blue Waters supercomputer at the National Petascale Computing Facility. I have worked on:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;CUDA Kernel Optimization for &lt;a href=&#34;https://scec.usc.edu/scecpedia/AWP-ODC&#34; target=&#34;_blank&#34;&gt;AWP&lt;/a&gt; with the Southern California Earthquake Center&lt;/li&gt;
+&lt;li&gt;OpenACC Acceleration for &lt;a href=&#34;https://u.osu.edu/setsm/&#34; target=&#34;_blank&#34;&gt;SETSM&lt;/a&gt; with Ohio State University&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I am also working on applying tools developed by the IMPACT research group to high-performance code in collaboration with Huawei.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>llvmvm</title>
+      <link>https://cwpearson.github.io/project/llvmvm/</link>
+      <pubDate>Mon, 13 Mar 2017 04:23:32 -0500</pubDate>
+      
+      <guid>https://cwpearson.github.io/project/llvmvm/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
