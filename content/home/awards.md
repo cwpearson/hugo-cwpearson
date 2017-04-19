@@ -10,8 +10,10 @@ subtitle = ""
 widget = "custom"
 
 # Order that this section will appear in.
-weight = 70
+weight = 65
 
 +++
+
+Mavis Future Faculty Fellowship - 2017-2018
 
 Teacher Ranked as Excellent by Students - Fall 2015

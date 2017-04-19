@@ -24,9 +24,9 @@ defaultContentLanguageInSubdir = false
   organization = "University of Illinois Urbana-Champaign"
   organization_url = "http://www.ece.illinois.edu/"
   avatar = "headshot.jpeg"
-  email = "[[my last name]]@illinois.edu"
+  email = "pearson@illinois.edu"
   address = "227 Coordinated Science Lab MC 228, 1308 W. Main St., Urbana, Illinois 61801"
-  office_hours = "Email for appointment"
+  office_hours = "Face-to-face by appointment"
   phone = ""
   skype = ""
   telegram = ""
@@ -122,10 +122,10 @@ defaultContentLanguageInSubdir = false
   #
   #   Full list: https://jpswalsh.github.io/academicons/
 
-  # [[params.social]]
-  #   icon = "envelope"
-  #   icon_pack = "fa"
-  #   link = "mailto:test@example.org"
+  [[params.social]]
+    icon = "envelope"
+    icon_pack = "fa"
+    link = "mailto:pearson@illinois.edu"
 
   [[params.social]]
     icon = "google-scholar"
