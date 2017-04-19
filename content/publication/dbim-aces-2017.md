@@ -10,7 +10,7 @@ abstract = ''
 image = ""
 image_preview = ""
 math = false
-publication = "*Applied and Computational Electromagnetics Symposium, 2017.* For the speacial session: Big Data Aspects"
+publication = "*Applied and Computational Electromagnetics Symposium, 2017.* For the special session: Big Data Aspects"
 
 url_code = ""
 url_dataset = ""
