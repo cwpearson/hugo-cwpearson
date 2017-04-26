@@ -14,6 +14,8 @@ weight = 60
 
 +++
 
+I am a University of Illinois [Mavis Future Faculty Fellow](https://publish.illinois.edu/engr-mavis/) for the 2017-2018 academic year.
+
 I have been a teaching assistant for the following courses:
 
 - ECE408/CS483: Heterogeneous Parallel Programming at the University of Illinois
