@@ -14,6 +14,8 @@ weight = 65
 
 +++
 
-Mavis Future Faculty Fellowship - 2017-2018
+Mavis Future Faculty Fellowship - UIUC 2017-2018
 
-Teacher Ranked as Excellent by Students - Fall 2015
+Top-20 Poster - 2017 NVIDIA GPU Technology Conference
+
+Teacher Ranked as Excellent by Students - UIUC Fall 2015
