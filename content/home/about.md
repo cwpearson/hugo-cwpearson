@@ -20,10 +20,12 @@ weight = 1
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "BS in Engineering"
+  course = "Ph.D Candidate in Electrical and Computer Engineering"
+  institution = "University of Illinois Urbana-Champaign"
+[[education.courses]]
+  course = "B.S. with High Distinction in Engineering"
   institution = "Harvey Mudd College"
   year = 2013
-
 +++
 
 # Biography
