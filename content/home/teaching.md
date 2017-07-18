@@ -14,7 +14,7 @@ weight = 60
 
 +++
 
-I am a University of Illinois [Mavis Future Faculty Fellow](https://publish.illinois.edu/engr-mavis/) for the 2017-2018 academic year.
+I am a University of Illinois [Mavis Future Faculty Fellow](http://publish.illinois.edu/engr-mavis/2017-2018-mavis-fellows/) for the 2017-2018 academic year.
 
 I have been a teaching assistant for the following courses:
 
