@@ -10,7 +10,7 @@ subtitle = ""
 widget = "projects"
 
 # Order that this section will appear in.
-weight = 30
+weight = 20
 
 # View.
 # Customize how projects are displayed.
