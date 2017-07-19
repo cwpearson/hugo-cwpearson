@@ -14,7 +14,11 @@ weight = 30
 
 +++
 
-I am spending summer 2017 in Yorktown NY as a research intern at IBM's TJ Watson Research Center.
+## Industry
+
+Summer 2017 - Research Intern, IBM TJ Watson Research Center, Yorktown Heights, NY
+
+## Teaching
 
 I am a University of Illinois [Mavis Future Faculty Fellow](http://publish.illinois.edu/engr-mavis/2017-2018-mavis-fellows/) for the 2017-2018 academic year.
 
@@ -26,5 +30,3 @@ I have been a teaching assistant for the following courses:
 
 I have also been a teaching assistant for the Programming and Tuning Massively Parallel Systems
 [(PUMPS)](http://bcw.ac.upc.edu/PUMPS2017/) summer school in Barcelona since 2014.
-
-Summer 2017 - IBM Research Intern, T. J. Watson Research Center, Yorktown Heights, NY
