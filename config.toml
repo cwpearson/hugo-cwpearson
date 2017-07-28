@@ -164,7 +164,7 @@ defaultContentLanguageInSubdir = false
   weight = 3
 
 [[menu.main]]
-  name = "Postions"
+  name = "Positions"
   url = "#positions"
   weight = 4
 
