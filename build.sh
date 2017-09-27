@@ -1,6 +1,6 @@
 #! /bin/bash
 
-set -eou pipefail
+set -eoux pipefail
 
 HUGO_ROOT=`pwd`
 
@@ -22,14 +22,16 @@ if [[ "$numpaths" -ne "1" ]]; then
   exit -1
 fi
 
+
 # Clean up github.io repo
+echo "Updating and cleaning cwpearson.github.io"
 cd "$IO_ROOT"
 git pull
-git rm -rf *
+rm -rf *
 
 # Build website
 cd "$HUGO_ROOT"
-echo "Updating submodules"
+echo "Updating theme"
 git submodule update --recursive --remote
 echo "Building site"
 hugo -d "$IO_ROOT"
