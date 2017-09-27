@@ -5,7 +5,7 @@ set -eoux pipefail
 HUGO_ROOT=`pwd`
 
 ## Try to find cwpearson.github.io
-IO_ROOT=`find $HOME -name cwpearson.github.io`
+IO_ROOT=`find $HOME -type d ! -perm -a+r -prune -o -name cwpearson.github.io -print`
 
 if [[ -z "$IO_ROOT" ]]; then
   echo "Couldn't find cwpearson.github.io in $HOME"
