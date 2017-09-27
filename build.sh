@@ -1,13 +1,21 @@
 #! /bin/bash
 
+set -eou pipefail
+
 HUGO_ROOT=`pwd`
 
 ## Try to find cwpearson.github.io
 IO_ROOT=`find $HOME -name cwpearson.github.io`
 
-echo "Found" "$IO_ROOT"
+if [[ -z "$IO_ROOT" ]]; then
+  echo "Couldn't find cwpearson.github.io in $HOME"
+  exit -1
+fi
 
+echo "Found" "$IO_ROOT"
 numpaths=`echo "$IO_ROOT" | wc -l`
+
+echo $numpaths
 
 if [[ "$numpaths" -ne "1" ]]; then
   echo "Found more than one cwpearson.github.io"
