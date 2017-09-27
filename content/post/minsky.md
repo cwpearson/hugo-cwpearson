@@ -35,6 +35,6 @@ Each CPU is connected to two NVIDIA P100s by two NVLinks each. Those two P100s a
 
 Minsky1 may be accessed at `minsky1-1.csl.illinois.edu`
 
-Minsky2 may be accessed at `minsky2-1.csl.illinois.edu`
+Minsky2 may be accessed at `minsky2-1.csl.illinois.edu` or `minsky2-2.csl.illinois.edu`.
 
 Both machines are behind the UIUC firewall. You will need to be on the UIUC network (either on-campus or through VPN) to access the machines.
