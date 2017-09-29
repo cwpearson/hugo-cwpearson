@@ -22,6 +22,15 @@ if [[ "$numpaths" -ne "1" ]]; then
   exit -1
 fi
 
+# Try building the website locally
+cd "$HUGO_ROOT"
+echo "Updating theme"
+git submodule update --recursive --remote
+echo "Building site"
+hugo
+
+# Clean up local build
+rm -r "$HUGO_ROOT/public"
 
 # Clean up github.io repo
 echo "Updating and cleaning cwpearson.github.io"
@@ -31,8 +40,6 @@ rm -rf *
 
 # Build website
 cd "$HUGO_ROOT"
-echo "Updating theme"
-git submodule update --recursive --remote
 echo "Building site"
 hugo -d "$IO_ROOT"
 
