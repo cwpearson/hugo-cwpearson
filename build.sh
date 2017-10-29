@@ -44,5 +44,5 @@ hugo -d "$IO_ROOT"
 # push new content
 cd $IO_ROOT
 git add *
-git commit -m "[build.sh] Deployed from hugo-cwpearson"
+git commit -am "[build.sh] Deployed from hugo-cwpearson"
 git push
