@@ -24,8 +24,6 @@ fi
 
 # Try building the website locally
 cd "$HUGO_ROOT"
-echo "Updating theme"
-git submodule update --recursive --remote
 echo "Building site"
 hugo
 

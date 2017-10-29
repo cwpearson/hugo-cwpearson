@@ -30,14 +30,12 @@ caption = ""
 
 +++
 
-I developed new course content for ECE 408 / CS 483 during the fall semester of 2017.
+I developed new course content for University of Illinois ECE 408 / CS 483 during the 2017 fall semester.
 
-* Three lectures on machine learning
+* Three lectures on machine learning ([1][l1], [2][l2], [3][l3])
 * A [course project][project_repo] where students add a GPU convolution operator to MXNet.
 
 [project_repo]: https://bitbucket.org/hwuligans/2017fa_ece408_project
-<!--->
-[l1]:
-[l2]:
-[l3]:
-<--->
+[l1]: ../../pdf/2017FA_ECE408_dl01_Intro.pdf
+[l2]: ../../pptx/2017FA_ECE408_dl02_FF-Gradient.pptx
+[l3]: ../../pptx/2017FA_ECE408_dl03_CNN01.pptx
