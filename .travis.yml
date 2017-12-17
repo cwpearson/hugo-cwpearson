@@ -9,8 +9,8 @@ script:
   - hugo
 
 after_success: |
+  set -e
   if [ -n "$GITHUB_TOKEN" ] && [ "$TRAVIS_BRANCH" == "master" ]; then
-    set -e
     cd "$TRAVIS_BUILD_DIR"
     cd public
     git init
@@ -21,5 +21,5 @@ after_success: |
     # This works because the API key can replace your password.
     git push -f -q https://cwpearson:$GITHUB_TOKEN@github.com/cwpearson/cwpearson.github.io master 2> /dev/null
     cd "$TRAVIS_BUILD_DIR"
-    set +e
   fi
+  set +e
