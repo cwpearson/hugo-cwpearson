@@ -2,7 +2,7 @@ dist: trusty
 sudo: true
 
 install:
-  - wget https://github.com/gohugoio/hugo/releases/download/v0.31.1/hugo_0.31.1_Linux-64bit.deb -O hugo.deb
+  - wget -q https://github.com/gohugoio/hugo/releases/download/v0.31.1/hugo_0.31.1_Linux-64bit.deb -O hugo.deb
   - sudo dpkg -i hugo.deb
 
 script:
@@ -19,6 +19,6 @@ after_success: |
     git -c user.name='cwpearson' -c user.email='carl.w.pearson@gmail.com' commit -m init
     # Make sure to make the output quiet, or else the API token will leak!
     # This works because the API key can replace your password.
-    git push -f -q https://cwpearson:$GITHUB_TOKEN@github.com/cwpearson/cwpearson.github.io master &2> /dev/null
+    git push -f https://cwpearson:$GITHUB_TOKEN@github.com/cwpearson/cwpearson.github.io master
     cd "$TRAVIS_BUILD_DIR"
   fi
