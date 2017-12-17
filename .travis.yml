@@ -11,12 +11,11 @@ script:
 after_success: |
   if [ -n "$GITHUB_TOKEN" ]; then
     cd "$TRAVIS_BUILD_DIR"
-    # This generates a `web` directory containing the website.
     cd public
     git init
     git checkout -b master
     git add .
-    git -c user.name='cwpearson' -c user.email='carl.w.pearson@gmail.com' commit -m init
+    git -c user.name='cwpearson' -c user.email='carl.w.pearson@gmail.com' commit -m "push from hugo-cwpearson $TRAVIS_BRANCH"
     # Make sure to make the output quiet, or else the API token will leak!
     # This works because the API key can replace your password.
     git push -f https://cwpearson:$GITHUB_TOKEN@github.com/cwpearson/cwpearson.github.io master
