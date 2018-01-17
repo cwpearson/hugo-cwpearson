@@ -16,7 +16,10 @@ weight = 30
 
 ## Industry
 
-Summer 2017 - Research Intern for Optimized CLOUD Systems, IBM TJ Watson Research Center, Yorktown Heights, NY
+- Summer 2017 - Research Intern for Optimized CLOUD Systems, IBM TJ Watson Research Center, Yorktown Heights, NY
+- Summer 2014, Summer 2015 - Research Intern, MulticoreWare Inc., Champaign, IL
+- Summer 2013 - Co-op Engineer Floating-Point RTL, AMD, Fort Collins, CO
+- Summer 2012 - Co-op Engineer Physical Design, AMD, Fort Collins, CO
 
 ## Teaching
 
