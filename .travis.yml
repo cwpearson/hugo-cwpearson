@@ -1,7 +1,7 @@
 dist: trusty
 
 install:
-  - wget -q https://github.com/gohugoio/hugo/releases/download/v0.34/hugo_0.34_Linux-64bit.tar.gz -O hugo.tar.gz
+  - wget -q https://github.com/gohugoio/hugo/releases/download/v0.36/hugo_0.36_Linux-64bit.tar.gz -O hugo.tar.gz
   - tar -xvf hugo.tar.gz
   - mkdir -vp ~/bin
   - mv -v hugo ~/bin/hugo
