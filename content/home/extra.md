@@ -15,5 +15,3 @@ weight = 70
 +++
 
 Board of Governors, [University YMCA](universityymca.org).
-
-Executive Board, [Amnesty International at UIUC](https://www.facebook.com/AmnestyUIUC).
