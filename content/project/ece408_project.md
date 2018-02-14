@@ -35,7 +35,9 @@ I developed new course content for University of Illinois ECE 408 / CS 483 durin
 * Four lectures on machine learning ([1][l1], [2][l2], [3][l3], [4][l4])
 * A [course project][project_repo] ([kickoff slides][kickoff]) where students add a GPU convolution operator to MXNet.
 
-[project_repo]: https://github.com/webgpu/2017fa_ece408_project
+I administered the project and revised it for the spring 2018 semester.
+
+[project_repo]: https://github.com/illinois-impact/ece408_project
 [l1]: ../../pdf/2017FA_ECE408_dl01_Intro.pdf
 [l2]: ../../pptx/2017FA_ECE408_dl02_FF-Gradient.pptx
 [l3]: ../../pptx/2017FA_ECE408_dl03_CNN01.pptx
