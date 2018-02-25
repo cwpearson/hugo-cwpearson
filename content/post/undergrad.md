@@ -19,9 +19,9 @@ caption = ""
 I'm looking for a few good undergraduate students! Please contact me if you're interested in any of the tasks on this page.
 More significant engagement with masters or doctoral students on any of these topics is also welcome.
 
-*(Last updated Feb 25/ 2018)*
+*(Last updated Feb 25, 2018)*
 
-### System Characterization
+## System Characterization
 
 I have written an automatic system characterization performance tool that needs some more love. Some software-engineering opportunities
 
@@ -37,7 +37,7 @@ Some more researchy tasks:
 
 ## Application Characterization
 
-I have written a heterogeneous application profiling tool
+I have written a heterogeneous application profiling tool. It needs to be better.
 
 * Trace application disk I/O
 * Extending the tool to work with networked applications
@@ -47,7 +47,7 @@ I have written a heterogeneous application profiling tool
 
 ## Automatic Architecture Determination
 
-Researchy tasks:
+I am investigating using the tools above to automatically propose architectures fitted to applications of interest. I need some help with
 
 * Performance estimation for GPU kernels
 * Architecture generation as a constrained optimization problem
