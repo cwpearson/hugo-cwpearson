@@ -14,8 +14,10 @@ weight = 50
 
 +++
 
+Dan Vivoli Endowed Fellowship - UIUC 2018-2019
+
 Mavis Future Faculty Fellowship - UIUC 2017-2018
 
-Top-20 Poster - 2017 NVIDIA GPU Technology Conference
+Top-20 Poster - NVIDIA GPU Technology Conference 2017
 
 Teacher Ranked as Excellent by Students - UIUC Fall 2015
