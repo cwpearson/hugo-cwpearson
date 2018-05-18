@@ -3,5 +3,7 @@
 ## Setup
 
     git clone git@github.com:cwpearson/hugo-cwpearson.git --recursive
-    git clone git@github.com:cwpearson/cwpearson.github.io.git
 
+or if you clone without recursive, then
+
+    git submodule update --init
