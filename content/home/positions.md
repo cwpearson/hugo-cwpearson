@@ -23,9 +23,9 @@ weight = 30
 
 ## Teaching
 
+- 2018 Spring University of Illinois Project TA for ECE408/CS483
 - 2017 Fall University of Illinois Head TA for ECE408/CS483
 - 2017-2018 University of Illinois [Mavis Future Faculty Fellow](http://publish.illinois.edu/engr-mavis/2017-2018-mavis-fellows/).
-
 
 I have been a teaching assistant for the following courses:
 
