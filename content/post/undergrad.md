@@ -23,17 +23,15 @@ More significant engagement with masters or doctoral students on any of these to
 
 ## System Characterization
 
-I have written an automatic system characterization performance tool that needs some more love. Some software-engineering opportunities
+The IMPACT group is working on a heterogeneous system benchmarking tool: [rai-project/microbench](github.com/rai-project/microbench).
 
-* Generating [rust](https://www.rust-lang.org) bindings for useful libraries (CUDA, hwloc)
-* Moving parts of the application over to rust
-* Changing the tool better handle the existence of only some of the libraries it uses.
+We'd like to extend it with the following capabilities:
 
-Some more researchy tasks:
-
-* Adding persistent storage discovery and performance characterization 
-* Adding network storage discovery and performation characterization (MPI, RPC, and so on)
-* Adding communication collective performation characterization (MPI / NCCL)
+* Adding persistent storage benchmarking
+* Enhancing the CUDA communication benchmarking (full-duplex)
+* Benchmarking system atomics, cooperative kernel launches, and other new CUDA features
+* Adding network storage discovery and performance characterization (MPI, RPC, and so on)
+* Adding communication collective performance characterization (MPI / NCCL / Blink / direct CUDA implementations, others)
 
 ## Application Characterization
 
