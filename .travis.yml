@@ -8,6 +8,7 @@ install:
   - export PATH="$HOME/bin:$PATH"
 
 script:
+  - hugo version
   - hugo
 
 after_success: |
