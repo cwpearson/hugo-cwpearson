@@ -1,6 +1,6 @@
 +++
 summary = "An LLVM Version Manager"
-tags = ["personal"]
+tags = []
 highlight = true
 external_link = "https://github.com/cwpearson/llvmvm"
 math = false

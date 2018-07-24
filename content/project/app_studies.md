@@ -6,7 +6,7 @@ image_preview = ""
 summary = "Tools and Techniques for Code Acceleration"
 highlight = true
 math = false
-tags = ["impact"]
+tags = []
 
 [header]
   caption = ""

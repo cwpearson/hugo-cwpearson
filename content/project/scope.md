@@ -1,6 +1,6 @@
 +++
-title = "Resume/CV"
-date = 2017-09-27T16:45:32-05:00
+title = "Scope"
+date = 2018-07-24T09:28:43-05:00
 draft = false
 
 # Tags: can be used for filtering projects.
@@ -8,19 +8,19 @@ draft = false
 tags = []
 
 # Project summary to display on homepage.
-summary = "Generate PDF, docx, html, and txt resume/cv from a single markdown source."
+summary = "Heterogeneous System Benchmarking"
 
 # Optional image to display on homepage.
 image_preview = ""
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://github.com/cwpearson/resume"
+external_link = "https://github.com/rai-project/scope"
 
 # Does the project detail page use math formatting?
 math = false
 
 # Does the project detail page use source code highlighting?
-highlight = false
+highlight = true
 
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.

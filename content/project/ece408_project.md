@@ -5,7 +5,7 @@ draft = false
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["impact"]
+tags = []
 
 # Project summary to display on homepage.
 summary = "Students add a convolution layer to MXNet"
