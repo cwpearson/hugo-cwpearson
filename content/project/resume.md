@@ -5,7 +5,7 @@ draft = false
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = []
+tags = ["personal"]
 
 # Project summary to display on homepage.
 summary = "Generate PDF, docx, html, and txt resume/cv from a single markdown source."

@@ -5,7 +5,7 @@ draft = false
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = []
+tags = ["c3sr"]
 
 # Project summary to display on homepage.
 summary = "Heterogeneous System Benchmarking"
