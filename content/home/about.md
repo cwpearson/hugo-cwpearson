@@ -23,6 +23,10 @@ weight = 1
   course = "Ph.D Candidate in Electrical and Computer Engineering"
   institution = "University of Illinois Urbana-Champaign"
 [[education.courses]]
+  course = "M.S. in Computer Engineering"
+  institution = "University of Illinois Urbana-Champaign"
+  year = 2018  
+[[education.courses]]
   course = "B.S. with High Distinction in Engineering"
   institution = "Harvey Mudd College"
   year = 2013
