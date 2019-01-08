@@ -16,6 +16,7 @@ weight = 30
 
 ## Industry
 
+- Summer 2018 - Research Intern, IBM TJ Watson Research Center, Yorktown Heights, NY
 - Summer 2017 - Research Intern for Optimized CLOUD Systems, IBM TJ Watson Research Center, Yorktown Heights, NY
 - Summer 2014, Summer 2015 - Research Intern, MulticoreWare Inc., Champaign, IL
 - Summer 2013 - Co-op Engineer Floating-Point RTL, AMD, Fort Collins, CO
@@ -35,3 +36,5 @@ I have been a teaching assistant for the following courses:
 
 I have also been a teaching assistant for the Programming and Tuning Massively Parallel Systems
 [(PUMPS)](http://bcw.ac.upc.edu/PUMPS2017/) summer school in Barcelona since 2014.
+
+I have also mentored undergraduates and a high school student, who is a co-author on two papers.
