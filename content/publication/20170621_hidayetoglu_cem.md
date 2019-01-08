@@ -5,6 +5,18 @@ date = "2017-06-21"
 title = "Scalable Parallel DBIM Solutions of Inverse-Scattering Problems"
 authors = ["Mert Hidayetoglu", "Carl Pearson",  "Levent Gurel", "Wen-mei Hwu", "Weng Cho Chew"]
 
+# Publication type.
+# Legend:
+# 0 = Uncategorized
+# 1 = Conference paper
+# 2 = Journal article
+# 3 = Manuscript
+# 4 = Report
+# 5 = Book
+# 6 = Book section
+publication_types = ["1"]
+
+
 abstract = 'We report scalable solutions of inverse-scattering problems with the distorted Born iterative method (DBIM) on large number of computing nodes. Distributing forward solutions does not scale well when the number of illuminations is not greater than the number of computing nodes. As a remedy, we distribute both forward solutions and the corresponding forward solvers to improve granularity of DBIM solutions. This paper provides a set of solutions demonstrating good scaling of the proposed parallelization strategy up to 1,024 computing nodes, employing 16,394 processing cores in total.'
 
 
@@ -18,7 +30,7 @@ url_project = ""
 url_slides = ""
 url_video = ""
 
-selected = true
+selected = false
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

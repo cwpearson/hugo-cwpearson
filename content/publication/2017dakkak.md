@@ -9,12 +9,12 @@ authors = ["Adbul Dakkak", "Carl Pearson", "Cheng Li"]
 # Publication type.
 # Legend:
 # 0 = Uncategorized
-# 1 = Conference proceedings
-# 2 = Journal
-# 3 = Work in progress
-# 4 = Technical report
+# 1 = Conference paper
+# 2 = Journal article
+# 3 = Manuscript
+# 4 = Report
 # 5 = Book
-# 6 = Book chapter
+# 6 = Book section
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
@@ -29,13 +29,10 @@ abstract_short = ""
 math = false
 
 # Does this page require source code highlighting? (true/false)
-highlight = true
-
-# Featured image thumbnail (optional)
-image_preview = ""
+highlight = false
 
 # Is this a selected publication? (true/false)
-selected = false
+selected = true
 
 # Links (optional)
 url_pdf = "pdf/rai-edupar2017.pdf"
