@@ -7,8 +7,7 @@ authors = ["Mert Hidayetoglu", "Carl Pearson", "Weng Cho Chew", "Levent Gurel", 
 
 abstract = ''
 
-image = ""
-image_preview = ""
+
 math = false
 publication = "*Applied and Computational Electromagnetics Symposium, 2017.* For the special session: Big Data Aspects"
 
@@ -20,4 +19,14 @@ url_slides = ""
 url_video = ""
 
 selected = true
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder. 
+[image]
+  # Caption (optional)
+  caption = ""
+
+  # Focal point (optional)
+  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point = ""
 +++

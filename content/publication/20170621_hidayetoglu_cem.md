@@ -7,8 +7,7 @@ authors = ["Mert Hidayetoglu", "Carl Pearson",  "Levent Gurel", "Wen-mei Hwu", "
 
 abstract = 'We report scalable solutions of inverse-scattering problems with the distorted Born iterative method (DBIM) on large number of computing nodes. Distributing forward solutions does not scale well when the number of illuminations is not greater than the number of computing nodes. As a remedy, we distribute both forward solutions and the corresponding forward solvers to improve granularity of DBIM solutions. This paper provides a set of solutions demonstrating good scaling of the proposed parallelization strategy up to 1,024 computing nodes, employing 16,394 processing cores in total.'
 
-image = ""
-image_preview = ""
+
 math = false
 publication = "Computing and Electromagnetics International Workshop (CEM), 2017"
 
@@ -20,4 +19,14 @@ url_slides = ""
 url_video = ""
 
 selected = true
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder. 
+[image]
+  # Caption (optional)
+  caption = ""
+
+  # Focal point (optional)
+  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point = ""
 +++
