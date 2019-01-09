@@ -5,7 +5,7 @@ widget = "publications"
 active = true
 date = 2019-01-08T00:00:00
 
-title = "Publications"
+title = "Other Publications"
 subtitle = ""
 
 # Order that this section will appear in.
@@ -34,6 +34,6 @@ list_format = 3
 publication_type = "-1"
 
 # Exclude publications that are shown in the Selected Publications widget?
-exclude_selected = false
+exclude_selected = true
 +++
 
