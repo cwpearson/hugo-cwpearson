@@ -34,6 +34,14 @@ highlight = false
 # Is this a selected publication? (true/false)
 selected = true
 
+# Projects (optional).
+#   Associate this publication with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["deep-learning"]` references 
+#   `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects = ["teaching_tools"]
+
 # Links (optional)
 url_pdf = "pdf/rai-edupar2017.pdf"
 url_preprint = ""

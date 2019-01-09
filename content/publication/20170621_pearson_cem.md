@@ -37,6 +37,14 @@ image_preview = ""
 # Is this a selected publication? (true/false)
 selected = false
 
+# Projects (optional).
+#   Associate this publication with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["deep-learning"]` references 
+#   `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects = ["app_studies"]
+
 # Links (optional)
 url_pdf = "pdf/20170621_pearson_cem.pdf"
 url_preprint = ""

@@ -38,3 +38,17 @@ I have also been a teaching assistant for the Programming and Tuning Massively P
 [(PUMPS)](http://bcw.ac.upc.edu/PUMPS2017/) summer school in Barcelona since 2014.
 
 I have also mentored undergraduates and a high school student, who is a co-author on two papers.
+
+During the Mavis fellowship, I administered the ECE 408 GPU programming project in spring 2018. I created
+
+* Four lectures on machine learning ([1][l1], [2][l2], [3][l3], [4][l4])
+* A [course project][project_repo] where students add a GPU convolution operator to MXNet.
+* Project kickoff [slides][kickoff-slides] ([repo][kickoff-repo]).
+
+[project_repo]: https://github.com/illinois-impact/ece408_project
+[l1]: ../../pdf/2017FA_ECE408_dl01_Intro.pdf
+[l2]: ../../pptx/2017FA_ECE408_dl02_FF-Gradient.pptx
+[l3]: ../../pptx/2017FA_ECE408_dl03_CNN01.pptx
+[l4]: ../../pptx/2017FA_ECE408_dl04_CNN02.pptx
+[kickoff-slides]: ../../pdf/2017FA_ECE408_project-kickoff.pdf
+[kickoff-repo]: https://github.com/illinois-impact/ece408_project-kickoff-slides

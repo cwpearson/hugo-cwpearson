@@ -34,14 +34,10 @@ filter_default = 0
   
 [[filter]]
   name = "C3SR"
-  tag = ".c3sr"
+  tag = "c3sr"
 
 [[filter]]
   name = "IMPACT"
-  tag = ".impact"
-
-[[filter]]
-  name = "Personal"
-  tag = ".personal"
+  tag = "impact"
 
 +++

@@ -1,16 +1,16 @@
 +++
 # Project title.
-title = "Scope"
+title = "Teaching Tools"
 
 # Date this page was created.
-date = 2018-07-24T09:28:43-05:00
+date = 2016-01-01T00:00:00-05:00
 
 # Project summary to display on homepage.
-summary = "Heterogeneous System Benchmarking"
+summary = "Software to support GPU programming classes"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["c3sr"]
+tags = ["impact"]
 
 # Optional external URL for project (replaces project detail page).
 #external_link = "https://github.com/rai-project/scope"
@@ -32,8 +32,8 @@ url_code = ""
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
 url_custom = [
-    {icon_pack = "fab", icon="github", name="SCOPE", url = "https://github.com/c3sr/scope"},
-    {icon_pack = "fab", icon="github", name="Comm|Scope", url = "https://github.com/c3sr/comm_scope"}]
+    {icon_pack = "fab", icon="github", name="rai", url = "https://github.com/rai-project/rai"},
+]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 
