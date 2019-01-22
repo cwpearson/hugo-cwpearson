@@ -13,8 +13,9 @@ widget = "custom"
 weight = 50
 
 +++
-
 Dan Vivoli Endowed Fellowship - UIUC 2018-2019
+
+[MIT Graph Challenge](https://graphchallenge.mit.edu/champions) Finalist - UIUC 2018
 
 Mavis Future Faculty Fellowship - UIUC 2017-2018
 
