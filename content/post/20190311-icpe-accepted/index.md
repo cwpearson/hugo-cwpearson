@@ -35,12 +35,7 @@ summary = "Paper accepted at ICPE 2019"
 
 
 categories = []
-
-
-
 +++
-
-
 
 My paper *Evaluating Characteristics of CUDA Communication Primitives on High-Bandwidth Interconnects* is a **best paper nominee** and received an **artifact evaluation stamp**! It will appear  in [session 9][program] on April 10th at the International Conference on Performance Engineering (ICPE) in Mubmai, April 7-11. This work was started during an internsip at IBM's T.J. Watson research center in New York, and my colleagues from the IMPACT research group at the University of Illinois as well as IBM Research are co-authors on the paper.
 
@@ -62,6 +57,18 @@ These systems are chosen as representative configurations of current high-perfor
 Comm|Scope measurements can serve to update insights about the relative performance of data transfer methods on current systems.
 This work also reports insights for how high-level system design choices affect the performance of these data transfers, and how developers can optimize applications on these systems.
 
+Thanks to my co-authors:
+* Abdul Dakkak (University of Illinois Urbana-Champaign)
+* Sarah Hashash (University of Illinois Urbana-Champaign)
+* Cheng Li (University of Illinois Urbana-Champaign)
+* I-Hsin Chung (IBM T.J. Watson Research)
+* Jinjun Xiong (IBM T.J. Watson Research)
+* Wen-Mei Hwu (University of Illinois Urbana-Champaign)
+
+and thanks for the support of:
+* IBM-ILLINOIS Center for Cognitive Computing Systems Research (C3SR) - a research collaboration as part of the IBM AI Horizon Network.
+* The Blue Waters sustained-petascale computing project, which is supported by the National Science Foundation award OCI-0725070 and the state of Illinois. 
+Blue Waters is a joint effort of the University of Illinois at Urbana-Champaign and its National Center for Supercomputing Applications.
 
 [program]: https://icpe2019.spec.org/conference-program.html#session9
 
