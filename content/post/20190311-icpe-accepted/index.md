@@ -58,6 +58,7 @@ Comm|Scope measurements can serve to update insights about the relative performa
 This work also reports insights for how high-level system design choices affect the performance of these data transfers, and how developers can optimize applications on these systems.
 
 Thanks to my co-authors:
+
 * Abdul Dakkak (University of Illinois Urbana-Champaign)
 * Sarah Hashash (University of Illinois Urbana-Champaign)
 * Cheng Li (University of Illinois Urbana-Champaign)
@@ -66,6 +67,7 @@ Thanks to my co-authors:
 * Wen-Mei Hwu (University of Illinois Urbana-Champaign)
 
 and thanks for the support of:
+
 * IBM-ILLINOIS Center for Cognitive Computing Systems Research (C3SR) - a research collaboration as part of the IBM AI Horizon Network.
 * The Blue Waters sustained-petascale computing project, which is supported by the National Science Foundation award OCI-0725070 and the state of Illinois. 
 Blue Waters is a joint effort of the University of Illinois at Urbana-Champaign and its National Center for Supercomputing Applications.
