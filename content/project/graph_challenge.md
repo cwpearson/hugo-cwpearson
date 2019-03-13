@@ -6,7 +6,7 @@ title = "Graph Challenge"
 date = 2019-01-09T00:00:00-05:00
 
 # Project summary to display on homepage.
-summary = "Heterogeneous System Benchmarking"
+summary = "Static and Dynamic Graph Operations"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
