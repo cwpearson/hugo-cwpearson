@@ -3,7 +3,7 @@
 title = "Bio Snippet"
 subtitle = ""
 date = 2019-03-13T00:00:00
-lastmod = 2019-03-13T00:00:00
+lastmod = 2019-03-26T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -29,16 +29,19 @@ summary = "A short biography of Carl Pearson for general use"
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "Smart"
+  focal_point = "Top"
 
   # Show image only in page previews?
-  preview_only = false
+  preview_only = true
 
 
 categories = []
 +++
 
-Carl Pearson is a PhD candidate in the Electrical Computer and Engineering Department at the University of Illinois Urbana-Champaign.
-He is a member of the [IMPACT Research Group](http://impact.crhc.illinois.edu/) and advised by Professor Wen-Mei Hwu.
-His current research focus is on multi-GPU graph algorithms, and more broadly he is interested in high performance computing, GPU computing, compilers, and high-level programming languages and frameworks.  
-He was awarded the 2017-2018 Dan Vivoli  GPU computing fellowship from the University of Illinois Urbana-Champaign.
+Carl Pearson is currently a PhD candidate in the Electrical Computer and Engineering Department at the University of Illinois Urbana-Champaign.
+He is a member of the [IMPACT Research Group](http://impact.crhc.illinois.edu/) and advised by Professor Wen-Mei Hwu where he works on high performance computing, GPU computing, compilers, and high-level programming languages and frameworks, with an emphasis on multi-GPU graph algorithms.
+He also enjoys teaching and mentoring undergraduate and graduate students in GPU programming courses.
+
+
+<img src="/img/headshot.jpg" alt="drawing" width="200"/>
+*For full size, right-click and view image.*
