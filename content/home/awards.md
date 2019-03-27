@@ -13,7 +13,9 @@ widget = "custom"
 weight = 50
 
 +++
-Dan Vivoli Endowed Fellowship - UIUC 2018-2019
+[E. A. Reid Fellowship](https://ece.illinois.edu/academics/grad/fellowships/reid) - UIUC 2019-2020
+
+[Dan Vivoli Endowed Fellowship](https://ece.illinois.edu/academics/grad/fellowships/vivoli) - UIUC 2018-2019
 
 [MIT Graph Challenge](https://graphchallenge.mit.edu/champions) Finalist - UIUC 2018
 
