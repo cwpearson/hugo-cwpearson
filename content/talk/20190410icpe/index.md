@@ -38,7 +38,7 @@ selected = true
 #   E.g. `projects = ["deep-learning"]` references 
 #   `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects = []
+projects = ["scope"]
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
@@ -54,7 +54,7 @@ slides = ""
 
 # Links (optional).
 url_pdf = ""
-url_slides = ""
+url_slides = "pdf/20190410icpe.pdf"
 url_video = ""
 url_code = ""
 
