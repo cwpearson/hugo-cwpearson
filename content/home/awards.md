@@ -13,6 +13,8 @@ widget = "custom"
 weight = 50
 
 +++
+Best Paper Candidate and ACM Artifact Evaluation Stamp - ICPE 2019
+
 [E. A. Reid Fellowship](https://ece.illinois.edu/academics/grad/fellowships/reid) - UIUC 2019-2020
 
 [Dan Vivoli Endowed Fellowship](https://ece.illinois.edu/academics/grad/fellowships/vivoli) - UIUC 2018-2019
