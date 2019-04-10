@@ -54,7 +54,7 @@ slides = ""
 
 # Links (optional).
 url_pdf = ""
-url_slides = "pdf/20190410icpe.pdf"
+url_slides = "/pdf/20190410_pearson_icpe_slides.pdf"
 url_video = ""
 url_code = ""
 
