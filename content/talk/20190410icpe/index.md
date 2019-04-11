@@ -72,6 +72,8 @@ math = false
   focal_point = "Right"
 +++
 
+You can find the paper [here](/publication/20190410_pearson_icpe).
+
 Thanks to my co-authors:
 
 * Abdul Dakkak (University of Illinois Urbana-Champaign)

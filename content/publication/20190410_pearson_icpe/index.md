@@ -75,6 +75,8 @@ url_source = ""
   focal_point = ""
 +++
 
-This paper was nominated as a Best Paper Candidate, and received an ACM Artifact Evaluation stamp.
+
+* Best Paper for the ICPE research track papers
+* Functional ACM Artifact Evaluation.
 
 <img src="/img/acm_artifact_functional.jpg" alt="functional artifact" width="200"/>
