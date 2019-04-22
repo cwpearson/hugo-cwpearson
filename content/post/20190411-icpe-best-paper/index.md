@@ -35,7 +35,25 @@ summary = "Best research track paper at ICPE"
 
 
 categories = []
+
+# Set captions for image gallery.
+
+[[gallery_item]]
+album = "gallery"
+image = "IMG_20190410_163410.jpg"
+caption = "Carl Pearson presenting at ICPE"
+
+[[gallery_item]]
+album = "gallery"
+image = "IMG_20190409_144252.jpg"
+caption = "Simon Garcia de Gonzalo presenting at ICPE"
+
+
 +++
 
 My paper *Evaluating Characteristics of CUDA Communication Primitives on High-Bandwidth Interconnects* won the best paper award at ICPE! 
 
+I travelled with Simon Garcia de Gonzalo, a colleague from the IMPACT group, to ICPE.
+Here we are presenting our papers.
+
+{{< gallery >}}
