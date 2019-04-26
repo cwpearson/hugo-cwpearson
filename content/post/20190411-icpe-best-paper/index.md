@@ -47,7 +47,7 @@ caption = "Carl Pearson presenting at ICPE"
 album = "gallery"
 image = "IMG_20190409_144252.jpg"
 caption = "Simon Garcia de Gonzalo presenting at ICPE"
-
+ 
 
 +++
 
