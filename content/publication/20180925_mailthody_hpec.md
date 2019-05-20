@@ -43,7 +43,7 @@ selected = true
 #   E.g. `projects = ["deep-learning"]` references 
 #   `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects = ["graph_challenge"]
+projects = ["graph_library"]
 
 # Links (optional)
 url_pdf = "pdf/20180925_mailthody_iwoph.pdf"

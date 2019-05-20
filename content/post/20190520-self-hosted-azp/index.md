@@ -8,7 +8,7 @@ draft = false
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Carl Pearson"]
 
-tags = []
+tags = ["GPU", "Docker", "Continuous Integration"]
 
 summary = "Host your own GPU continuous integration pipeline with a bit of Python, Docker, and Azure Pipelines"
 
@@ -72,7 +72,7 @@ Before I get any further into it, the code and documentation for hosting your ow
 
 ## Azure Pipelines and Self-Hosted Agents
 
-![][fig1]
+![][fig2]
 *Each container running on the self-hosted system registers itself with the custom pool on the Azure Pipelines cloud system. The self-hosted system has GPUs and large static datasets for testing. The nvidia-docker runtime allows the containers to access the host GPUs, and the large test datasets are mapped into each container as a read-only volume.*
 
 For our purposes, Azure Pipelines has two important components. The first is the queue of CI pipelines, and the second are the agent pools. Each CI pipeline consists of multiple jobs, each of which can run on an agent in a specific pool. The agent pool is a list of agents that have registered themselves with Azure Pipelines. For example, if the client specifies that the job should run in the ubuntu-16.04 pool, the job will be executed by an agent somewhere in the Microsoft cloud. Azure Pipelines lets you create your own agent pools, and host your own agents!

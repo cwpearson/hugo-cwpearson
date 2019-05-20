@@ -33,7 +33,7 @@ education:
     year: 2018
   - course: BSc with High Distinction in Engineering
     institution: Harvey Mudd College
-    year: 2009
+    year: 2013
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
