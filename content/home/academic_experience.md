@@ -1,26 +1,51 @@
 +++
-# An example of using the custom widget to create your own homepage section.
-# To create more sections, duplicate this file and edit the values below as desired.
+# A Demo section created with the Blank widget.
+# Any elements can be added in the body: https://sourcethemes.com/academic/docs/writing-markdown-latex/
+# Add more sections by duplicating this file and customizing to your requirements.
 
-date = "2017-07-18T00:00:00"
-draft = false
+widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
+headless = true  # This file represents a page section.
+active = true  # Activate this widget? true/false
+weight = 50  # Order that this section will appear.
 
-title = "Positions and Experience"
+title = "Academic Experience"
 subtitle = ""
-widget = "custom"
 
-# Order that this section will appear in.
-weight = 30
+[design]
+  # Choose how many columns the section has. Valid values: 1 or 2.
+  columns = "1"
 
+[design.background]
+  # Apply a background color, gradient, or image.
+  #   Uncomment (by removing `#`) an option to apply it.
+  #   Choose a light or dark text color by setting `text_color_light`.
+  #   Any HTML color name or Hex value is valid.
+
+  # Background color.
+  # color = "navy"
+  
+  # Background gradient.
+  # gradient_start = "DeepSkyBlue"
+  # gradient_end = "SkyBlue"
+  
+  # Background image.
+  image = ""  # Name of image in `static/img/`.
+  image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+
+  # Text color (true=light or false=dark).
+  text_color_light = false
+
+[design.spacing]
+  # Customize the section spacing. Order is top, right, bottom, left.
+  padding = ["20px", "0", "20px", "0"]
+
+[advanced]
+ # Custom CSS. 
+ css_style = ""
+ 
+ # CSS class.
+ css_class = ""
 +++
-
-## Industry
-
-- Summer 2018 - Research Intern, IBM TJ Watson Research Center, Yorktown Heights, NY
-- Summer 2017 - Research Intern for Optimized CLOUD Systems, IBM TJ Watson Research Center, Yorktown Heights, NY
-- Summer 2014, Summer 2015 - Research Intern, MulticoreWare Inc., Champaign, IL
-- Summer 2013 - Co-op Engineer Floating-Point RTL, AMD, Fort Collins, CO
-- Summer 2012 - Co-op Engineer Physical Design, AMD, Fort Collins, CO
 
 ## Teaching
 

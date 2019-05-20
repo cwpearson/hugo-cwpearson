@@ -14,39 +14,44 @@
   weight = 20
 
 [[main]]
-  name = "Projects"
-  url = "#projects"
+  name = "Talks"
+  url = "#talks"
   weight = 30
 
 [[main]]
-  name = "Positions"
-  url = "#positions"
+  name = "Projects"
+  url = "#projects"
   weight = 40
 
 [[main]]
-  name = "Talks"
-  url = "#talks"
+  name = "Academic Experience"
+  url = "#academic_experience"
   weight = 50
+
+[[main]]
+  name = "Positions"
+  url = "#industry_positions"
+  weight = 60
 
 [[main]]
   name = "Recognition"
   url = "#awards"
-  weight = 60
+  weight = 70
 
 [[main]]
   name = "Patents"
   url = "#patents"
-  weight = 70
+  weight = 80
 
 [[main]]
   name = "Posts"
   url = "#posts"
-  weight = 80
+  weight = 90
 
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 90
+  weight = 100
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
