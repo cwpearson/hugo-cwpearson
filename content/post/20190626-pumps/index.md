@@ -65,12 +65,17 @@ The summer school was stared by my advisor, Professor Wen-mei Hwu and David Kirk
 The first day of PUMPS, we mentored Pavel Eichler and Jakub Klinkovsky on GPU acceleration for a lattice-boltzmann-method-based computational fluid dynamics solver.
 Mert Hidayetoglu, Simon Garcia de Gonzalo, and I helped them apply some binning and scatter-to-gather transformations for a key coordinate-transformation step of their code.
 
-## Tuesday - Thursday
+## Tuesday - Friday
 
 The next three days consisted of morning lectures and afternoon hands-on labs for the students.
-I was mostly responsible for maing the sure the students could use [rai](github.com/rai-project/rai) to do their [labs](github.com/illinois-impact/gpu-algorithms-labs).
+I was mostly responsible for maing the sure the students could use [rai](github.com/rai-project/rai) to do their [labs](github.com/illinois-impact/gpu-algorithms-labs), and I also TAed the labs:
 
-## Friday
+* Scatter/Gather
+* Binning
+* Basic Convolution
+* Tiled Convolution
+
+## Saturday
 
 The final day has the Barcelona Supercomputing Center teaching the students about OmpSs, a pragma-based parallel runtime.
 
