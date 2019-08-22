@@ -10,4 +10,4 @@ or if you clone without recursive, then
 
     git submodule update --init
 
-Install [Hugo-extended 0.55.6](https://github.com/gohugoio/hugo/releases)
+Install [Hugo-extended 0.57.2](https://github.com/gohugoio/hugo/releases/tag/v0.57.2)
