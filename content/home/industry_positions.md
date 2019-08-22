@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 60  # Order that this section will appear.
 
-title = "Industry Positions"
+title = "Other Experience"
 subtitle = ""
 
 # Date format for experience
@@ -17,6 +17,17 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+[[experience]]
+  title = "Treasurer"
+  company = "University YMCA"
+  company_url = ""
+  location = "Urbana, IL"
+  date_start = "2019-08-01"
+  date_end = ""
+  description = """
+  Community member of the board of governors, serving as the chair of the budget committee, the Treasurer, and on the Bailey Scholarship steering committee.
+  """
+  
 [[experience]]
   title = "Research Intern"
   company = "IBM"
