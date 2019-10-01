@@ -47,7 +47,7 @@ projects = ["scope"]
 
 # Links (optional)
 url_pdf = "pdf/20180918_pearson_arxiv.pdf"
-url_preprint = ""
+url_preprint = "https://arxiv.org/abs/1809.08311"
 url_code = ""
 url_dataset = ""
 url_project = ""
