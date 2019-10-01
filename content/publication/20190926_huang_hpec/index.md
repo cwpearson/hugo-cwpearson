@@ -1,10 +1,10 @@
 +++
-title = "Upate on Triangle Counting on GPU"
-date = 2019-08-22T00:00:00  # Schedule page publish date.
-draft = true
+title = "Accelerating Sparse Deep Neural Networks on FPGAs"
+date = 2019-09-26T00:00:00  # Schedule page publish date.
+draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Carl Pearson", "Mohammad Almasri", "Omer Anjum", "Vikram S. Mailthody", "Zaid Qureshi", "Rakesh Nagi", "Jinjun Xiong", "Wen-Mei Hwu"]
+authors = ["Sitao Huang", "Carl Pearson", "Rakesh Nagi", "Jinjun Xiong", "Deming Chen", "Wen-Mei Hwu"]
 
 # Publication type.
 # Legend:
@@ -23,6 +23,7 @@ publication_short = "In *HPEC'19*"
 
 # Abstract and optional shortened version.
 abstract = """
+Deep neural networks (DNNs) have been widely adopted in many domains, including computer vision, natural language processing, and medical care. Recent research revealsthat sparsity in DNN parameters can be exploited to reduce inference computational complexity and improve network quality. However, sparsity also introduces irregularity and extra complexity in data processing, which make the accelerator design challenging. This work presents the design and implementation of a highly flexible sparse DNN inference accelerator on FPGA.Our proposed inference engine can be easily configured to beused in both mobile computing and high-performance computing scenarios. Evaluation shows our proposed inference engine effectively accelerates sparse DNNs and outperforms CPU solution by up to 4.7x in terms of energy efficiency.
 """
 abstract_short = ""
 
@@ -45,10 +46,10 @@ selected = true
 #   E.g. `projects = ["deep-learning"]` references 
 #   `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects = ["scope"]
+projects = []
 
 # Links (optional)
-url_pdf = ""
+url_pdf = "pdf/2019_huang_hpec.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""

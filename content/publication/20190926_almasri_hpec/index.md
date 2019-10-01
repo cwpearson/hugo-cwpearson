@@ -1,7 +1,7 @@
 +++
 title = "Upate on k-truss Dcomposition on GPU"
 date = 2019-08-22T00:00:00  # Schedule page publish date.
-draft = true
+draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Mohammad Almasri", "Omer Anjum", "Carl Pearson", "Vikram S. Mailthody", "Zaid Qureshi", "Rakesh Nagi", "Jinjun Xiong", "Wen-Mei Hwu"]
@@ -45,7 +45,7 @@ selected = false
 #   E.g. `projects = ["deep-learning"]` references 
 #   `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects = ["scope"]
+projects = []
 
 # Links (optional)
 url_pdf = ""
