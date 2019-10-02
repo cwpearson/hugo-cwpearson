@@ -1,5 +1,5 @@
 +++
-title = "Upate on k-truss Dcomposition on GPU"
+title = "Upate on k-truss Decomposition on GPU"
 date = 2019-08-22T00:00:00  # Schedule page publish date.
 draft = false
 
