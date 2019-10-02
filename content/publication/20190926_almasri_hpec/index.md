@@ -18,7 +18,7 @@ authors = ["Mohammad Almasri", "Omer Anjum", "Carl Pearson", "Vikram S. Mailthod
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = ""
+publication = "2019 IEEE High Performance Extreme Computing Conference"
 publication_short = "In *HPEC'19*"
 
 # Abstract and optional shortened version.
