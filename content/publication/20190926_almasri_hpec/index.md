@@ -53,12 +53,12 @@ selected = false
 projects = []
 
 # Links (optional)
-url_pdf = ""
+url_pdf = "pdf/2019_almasri_hpec.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
 url_project = ""
-url_slides = ""
+url_slides = "pdf/2019_almasri_hpec_slides.pdf"
 url_video = ""
 url_poster = ""
 url_source = ""
