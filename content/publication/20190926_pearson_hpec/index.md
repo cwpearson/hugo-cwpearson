@@ -56,7 +56,7 @@ url_dataset = ""
 url_project = ""
 url_slides = ""
 url_video = ""
-url_poster = ""
+url_poster = "pdf/2019_pearson_hpec_poster.pdf"
 url_source = ""
 
 # Featured image
