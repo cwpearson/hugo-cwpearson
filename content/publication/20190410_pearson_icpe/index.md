@@ -80,3 +80,22 @@ url_source = ""
 * Functional ACM Artifact Evaluation.
 
 <img src="/img/acm_artifact_functional.jpg" alt="functional artifact" width="200"/>
+
+```bibtex
+@inproceedings{10.1145/3297663.3310299,
+author = {Pearson, Carl and Dakkak, Abdul and Hashash, Sarah and Li, Cheng and Chung, I-Hsin and Xiong, Jinjun and Hwu, Wen-Mei},
+title = {Evaluating Characteristics of CUDA Communication Primitives on High-Bandwidth Interconnects},
+year = {2019},
+isbn = {9781450362399},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3297663.3310299},
+doi = {10.1145/3297663.3310299},
+booktitle = {Proceedings of the 2019 ACM/SPEC International Conference on Performance Engineering},
+pages = {209–218},
+numpages = {10},
+keywords = {numa, cuda, power, nvlink, x86, gpu, benchmarking},
+location = {Mumbai, India},
+series = {ICPE ’19}
+}
+```

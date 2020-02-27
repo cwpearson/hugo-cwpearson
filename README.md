@@ -10,4 +10,11 @@ or if you clone without recursive, then
 
     git submodule update --init
 
-Install [Hugo-extended 0.60.1](https://github.com/gohugoio/hugo/releases/tag/v0.60.1)
+of if you already have it cloned
+
+    git pull
+    git submodule update
+
+Install 
+* [Hugo-extended 0.65.3](https://github.com/gohugoio/hugo/releases/tag/v0.65.3)
+* Latest extended: `snap install hugo --channel=extended`
