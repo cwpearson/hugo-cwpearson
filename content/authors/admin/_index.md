@@ -21,10 +21,9 @@ organizations:
 bio: "PhD Candidate"
 
 interests:
-- High Performance Computing
-- Compilers
-- High-level Programming Languages and Frameworks
-- Cognitive Computing
+- High-Performance Computing
+- GPU Communication
+- Application Acceleration
 
 education:
   courses:
