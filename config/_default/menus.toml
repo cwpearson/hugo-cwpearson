@@ -14,28 +14,28 @@
   weight = 20
 
 [[main]]
+  name = "Recognition"
+  url = "#awards"
+  weight = 30
+
+[[main]]
   name = "Talks"
   url = "#talks"
-  weight = 30
+  weight = 40
+
+[[main]]
+  name = "Industry"
+  url = "#industry"
+  weight = 50
 
 [[main]]
   name = "Projects"
   url = "#projects"
-  weight = 40
-
-[[main]]
-  name = "Academic Experience"
-  url = "#academic_experience"
-  weight = 50
-
-[[main]]
-  name = "Other Experience"
-  url = "#industry_positions"
   weight = 60
 
 [[main]]
-  name = "Recognition"
-  url = "#awards"
+  name = "Academic"
+  url = "#academic"
   weight = 70
 
 [[main]]

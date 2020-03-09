@@ -2,7 +2,10 @@
 title: Stencil Library
 summary: A CUDA+MPI stencil library with automatic data placement and optimized multi-GPU communication, 
 tags:
-- Demo
+- GPU
+- CUDA
+- MPI
+- stencil
 date: "2020-03-09T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
