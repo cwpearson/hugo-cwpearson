@@ -94,8 +94,8 @@ date_format = "Jan 2006"
   title = "Top-20 Poster"
   url = ""
   certificate_url = ""
-  date_start = "2017-09-01"
-  date_end = "2018-06-01"
+  date_start = "2017-05-08"
+  date_end = "2017-05-11"
   description = ""
 
 [[item]]
