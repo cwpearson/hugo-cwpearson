@@ -23,7 +23,7 @@ date_end: "2020-02-28T15:00:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2020-03-15T00:00:00Z"
+publishDate: "2020-03-08T00:00:00Z"
 
 authors: ["Carl Pearson"]
 tags: []
