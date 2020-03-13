@@ -16,12 +16,12 @@ abstract: "High-performance distributed computing systems increasingly feature n
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2020-03-11T00:00:00Z"
-date_end: "2020-03-11T00:00:00Z"
+date: "2020-03-11T9:00:00Z"
+date_end: "2020-03-11T10:00:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2020-03-13T00:00:00Z"
+publishDate: "2020-03-11T00:00:00Z"
 
 authors: ["Carl Pearson"]
 tags: []
@@ -35,7 +35,7 @@ image:
 
 links:
 url_code: ""
-url_pdf: ""
+url_pdf: "pdf/20200311_sandia_stencil.pdf"
 url_slides: ""
 url_video: ""
 
