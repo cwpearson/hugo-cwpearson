@@ -82,3 +82,6 @@ During the Mavis fellowship, I administered the ECE 408 GPU programming project 
 [l4]: ../../pptx/2017FA_ECE408_dl04_CNN02.pptx
 [kickoff-slides]: ../../pdf/2017FA_ECE408_project-kickoff.pdf
 [kickoff-repo]: https://github.com/illinois-impact/ece408_project-kickoff-slides
+
+I also created a set of resources on using Nvidia's Nsight Compute and Nsight Systems performance profiling tools, including a 75 minute recorded lecture.
+See the [Github repository](https://github.com/cwpearson/nvidia-performance-tools) to get started.
