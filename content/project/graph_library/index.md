@@ -1,6 +1,6 @@
 ---
-title: Multi-GPU Graph Library
-summary: Accelerating Static and Dynamic Graph Operations
+title: Graph Library
+summary: Accelerating Static Graph Operations
 tags:
 - impact
 - c3sr
@@ -16,20 +16,25 @@ image:
 links:
 - icon: github
   icon_pack: fab
-  name: Graph Challenge Code
+  name: Pangolin Graph Library
+  url: https://github.com/c3sr/pangolin
+- icon: link
+  icon_pack: fa
+  name: Pangolin C++ API Documentation
+  url: https://pangolin-docs.netlify.app/
+- icon: github
+  icon_pack: fab
+  name: Graph Challenge
   url: https://github.com/c3sr/graph_challenge
 - icon: github
   icon_pack: fab
-  name: Graph Library Code
-  url: https://github.com/c3sr/pangolin
-- icon: github
-  icon_pack: fab
   name: Graph Dataset Tools
-  url: https://github.com/cwpearson/graph-datasets
+  url: https://github.com/cwpearson/graph-datasets2
 - icon: link
   icon_pack: fa
   name: Graph Dataset Statistics
   url: https://graph-datasets-stats.netlify.com
+
 url_code: ""
 url_pdf: ""
 url_slides: ""
@@ -42,3 +47,8 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+
+This project grew out of a 2018 graph challenge submission that I was tangentially involved in.
+In 2019 I took charge of the triangle counting submission, where I implemented a variety of GPU triangle counting approaches.
+This library contains those implementations, as well as k-truss decompositions written by my colleague Mohammad Almasri.
+It also contains a fair amount of utility code, including sparse and dense data structures, system topology discovery code and search/load-balancing algorithms.
