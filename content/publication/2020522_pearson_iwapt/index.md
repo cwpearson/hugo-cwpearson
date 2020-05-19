@@ -1,5 +1,5 @@
 +++
-title = "(Preprint) Node-Aware Stencil Communication on Heterogeneous Supercomputers"
+title = "Node-Aware Stencil Communication on Heterogeneous Supercomputers"
 date = 2020-03-09T00:00:00  # Schedule page publish date.
 draft = false
 
@@ -56,10 +56,10 @@ projects = ["stencil_library"]
 # Links (optional)
 url_pdf = "pdf/20200522_pearson_iwapt.pdf"
 url_preprint = ""
-url_code = ""
+url_code = "https://github.com/cwpearson/stencil"
 url_dataset = ""
 url_project = ""
-url_slides = ""
+url_slides = "pdf/20200522_pearson_iwapt_slides.pdf"
 url_video = ""
 url_poster = ""
 url_source = ""
