@@ -45,7 +45,7 @@ categories = []
 
 # Abstract
 
-Roll your own MPI packing and unpacking on GPUs for a **3x-1000x** speedup.
+Roll your own MPI packing and unpacking on GPUs for a **10,000x** speedup.
 
 # Background
 
