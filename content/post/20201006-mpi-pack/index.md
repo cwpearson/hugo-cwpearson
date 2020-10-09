@@ -9,7 +9,7 @@ authors = ["Carl Pearson"]
 
 tags = ["GPU", "MPI", "CUDA", "MPI_Pack"]
 
-summary = ""
+summary = "Improving CUDA-Aware MPI_Pack speed by 300,000x. Code available."
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
