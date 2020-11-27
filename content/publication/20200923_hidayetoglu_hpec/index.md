@@ -1,5 +1,5 @@
 +++
-title = "At-Scale Sparse Deep Neural Network InferenceWith Efficient GPU Implementation"
+title = "At-Scale Sparse Deep Neural Network Inference With Efficient GPU Implementation"
 date = 2020-09-23T00:00:00  # Schedule page publish date.
 draft = false
 
