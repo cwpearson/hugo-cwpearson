@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 50  # Order that this section will appear.
 
-title = "Industry Experience"
+title = "Experience"
 subtitle = ""
 
 # Date format for experience
@@ -23,7 +23,7 @@ date_format = "Jan 2006"
   company_url = ""
   location = "Urbana, IL"
   date_start = "2019-08-01"
-  date_end = ""
+  date_end = "2020-04-01"
   description = """
   Community member of the board of governors, serving as the chair of the budget committee, the Treasurer, and on the Bailey Scholarship steering committee.
   """
