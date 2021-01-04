@@ -43,7 +43,7 @@ categories = []
 [PhotoPrism](https://photoprism.app/) is a server-based application for browsing, organizing, and sharing your photo collection.
 Here, I describe how I set it up on a Google Compute Engine virtual machine using docker-compose, an nginx https proxy, and LetsEncrypt.
 
-*I know just enough about networking to be dangerous and next to nothing about HTTPS. This setup worked for me and I believe it to be reasonably secure, but I make not guarantees.*
+*Disclaimer: I know next to nothing about securing applications exposed to the internet. Use at your own risk.*
 
 In this entire post, I assume your domain will be `photoprism.example.com`.
 You'll need to change all instances of that throughout.
@@ -55,14 +55,14 @@ It simplifies the firewall rules.
 
 Depending on whether you want automatic Tensorflow image labeling:
 
-* *no*: e2-micro (2 vCPU, 1GB RAM)
+* *no*: e2-micro (2 vCPU, 1GB RAM). Needs swap during indexing.
 * *yes*: e2-medium (2 vCPU, 4GB RAM). You can get away with e2-small (2 GB RAM) if you're willing to enable swap.
 
 As for the other VM settings:
 
 * Debian 10 image and 50 GB disk. The OS and photoprism docker images use quite a few GBs, and you need some space left for your pictures.
 * Allow HTTP and HTTPS traffic.
-  * the LetsEncrypt certbot will try to connect to this machine over HTTP to validate you own the domain.
+  * LetsEncrypt `certbot` will try to connect to this machine over HTTP to validate you own the domain.
   * you can disable HTTP later.
 * Create/attach a static IPv4 address to your instance.
 * Add the corresponding custom resource record to your DNS (this allows `photoprism.example.com`. Change `photoprism` to a different subdomain if you like)
@@ -104,6 +104,8 @@ echo "/swapfile none swap sw 0 0" | sudo tee -a /etc/fstab > /dev/null
 
 ## Get your HTTPS certificate with LetsEncrypt
 
+*remember to change `photoprism.example.com`*
+
 Run `sudo certbot certonly -d photoprism.example.com`
 
 Since we installed nginx in the previous step, select the "nginx plugin" option (this is where you need HTTP allowed through the firewall).
@@ -140,7 +142,7 @@ I recommend not using special characters, as the wrong combo can cause things to
 *Note that `PHOTOPRISM_DATABASE_PASSWORD` and `MYSQL_PASSWORD` must be the same.*
 
 
-If you are using the smaller kind of instance, also set
+If you are using a smaller instance, also set
 ```yaml
 PHOTOPRISM_WORKERS: 1
 PHOTOPRISM_DISABLE_TENSORFLOW: "true"
@@ -148,7 +150,7 @@ PHOTOPRISM_DISABLE_TENSORFLOW: "true"
 
 To start photoprism, run `sudo docker-compose up -d`
 
-You can look at logs with `docker-compose logs`. you should not see anything like "failed to connect to database"
+You can look at logs with `sudo docker-compose logs`. you should not see anything like "failed to connect to database"
 
 If you goof this up, you need to do something like (this will delete everything)
 ```
@@ -159,7 +161,7 @@ sudo rm -r storage database
 
 ## Configure and Start NGINX
 
-*remember to change all `photoprism.example.com`*
+*remember to change `photoprism.example.com`*
 
 I had to follow alternate instructions [here](https://docs.photoprism.org/getting-started/advanced/nginx-proxy-setup/) *(the current instructions [here](https://docs.photoprism.org/getting-started/proxies/nginx/) did not work for me)*.
 
