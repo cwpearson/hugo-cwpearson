@@ -109,3 +109,17 @@ date_format = "Jan 2006"
   description = ""
 
 +++
+
+## Awards
+
+## Patents
+
+  <!-- [[item]]
+  organization = "United States 20140122579"
+  organization_url = ""
+  title = "Web-based method for physical object delivery though use of 3d printing technology"
+  url = ""
+  certificate_url = ""
+  date_start = "2012-11-01"
+  date_end = ""
+  description = "" -->

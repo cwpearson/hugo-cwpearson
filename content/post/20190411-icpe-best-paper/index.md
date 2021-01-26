@@ -38,6 +38,7 @@ categories = []
 
 # Set captions for image gallery.
 
+# fixme gallery below
 [[gallery_item]]
 album = "gallery"
 image = "IMG_20190410_163410.jpg"
@@ -56,4 +57,3 @@ My paper *Evaluating Characteristics of CUDA Communication Primitives on High-Ba
 I travelled with Simon Garcia de Gonzalo, a colleague from the IMPACT group, to ICPE.
 Here we are presenting our papers.
 
-{{< gallery >}}

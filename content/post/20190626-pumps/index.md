@@ -39,7 +39,7 @@ categories = []
 # Set captions for image gallery.
 
 
-
+#FIXME gallery
 [[gallery_item]]
 album = "gallery"
 image = "carl_mentor.jpg"
@@ -58,7 +58,6 @@ caption = "PUMPS students collaborating on Tuesday"
 It's my privilege to attend [PUMPS+AI 2019](https://pumps.bsc.es/2019/front-page-content) summer school in Barcelona!
 The summer school was stared by my advisor, Professor Wen-mei Hwu and David Kirk (formerly of Nvidia).
 
-{{< gallery >}}
 
 ## Monday
 
