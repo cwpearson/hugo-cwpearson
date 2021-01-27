@@ -1,0 +1,5 @@
+/* fix post names being too long*/
+.list-with-title .listing .listing-post a {
+    max-width:90%;
+    display: inline-block;
+}
