@@ -42,18 +42,12 @@ I also created a set of resources on using Nvidia's Nsight Compute and Nsight Sy
 See the [Github repository](https://github.com/cwpearson/nvidia-performance-tools) to get started.
 
 
-## Industory Experience
+## Industry Experience
 
-<!-- [[experience]]
-  title = "Treasurer"
-  company = "University YMCA"
-  company_url = ""
-  location = "Urbana, IL"
-  date_start = "2019-08-01"
-  date_end = "2020-04-01"
-  description = """
-  Community member of the board of governors, serving as the chair of the budget committee, the Treasurer, and on the Bailey Scholarship steering committee.
-  """
+#### Treasurer, University YMCA
+* August 2019 - April 2020
+* Community member of the board of governors, serving as the chair of the budget committee, the Treasurer, and on the Bailey Scholarship steering committee.
+
   
 [[experience]]
   title = "Research Intern"

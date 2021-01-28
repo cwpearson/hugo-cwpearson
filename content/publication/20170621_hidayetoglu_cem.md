@@ -2,7 +2,7 @@
 draft = false
 
 date = "2017-06-21"
-title = "[CME] Scalable Parallel DBIM Solutions of Inverse-Scattering Problems"
+title = "[CEM] Scalable Parallel DBIM Solutions of Inverse-Scattering Problems"
 
 math = false
 publication = "Computing and Electromagnetics International Workshop (CEM), 2017"
