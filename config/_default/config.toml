@@ -1,4 +1,4 @@
-baseURL = "www.carlpearson.net"
+baseURL = "https://www.carlpearson.net/"
 languageCode = "en"
 DefaultContentLanguage = "en"
 title = "Website of Carl Pearson"
