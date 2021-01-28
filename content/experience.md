@@ -2,11 +2,11 @@
 title = "Experience"
 description = ""
 date = ""
-aliases = ["about-us", "about-hugo", "contact"]
+aliases = []
 author = "Carl Pearson"
 +++
 
-## Academic Experience
+## Academia
 
 - 2018 Spring University of Illinois Project TA for ECE408/CS483
 - 2017 Fall University of Illinois Head TA for ECE408/CS483
@@ -42,69 +42,36 @@ I also created a set of resources on using Nvidia's Nsight Compute and Nsight Sy
 See the [Github repository](https://github.com/cwpearson/nvidia-performance-tools) to get started.
 
 
-## Industry Experience
+## Industry
 
-#### Treasurer, University YMCA
+#### Treasurer, University YMCA,
+* Urbana, IL
 * August 2019 - April 2020
 * Community member of the board of governors, serving as the chair of the budget committee, the Treasurer, and on the Bailey Scholarship steering committee.
 
   
-[[experience]]
-  title = "Research Intern"
-  company = "IBM"
-  company_url = ""
-  location = "T.J. Watson Research Center, Yorktown Heights, NY"
-  date_start = "2018-08-01"
-  date_end = "2018-12-01"
-  description = """
-  """
+#### Research Intern, IBM
+* T.J. Watson Research Center, Yorktown Heights, NY
+* Winter 2018
 
-[[experience]]
-  title = "Research Intern for Optimized CLOUD Systems"
-  company = "IBM"
-  company_url = ""
-  location = "T.J. Watson Research Center, Yorktown Heights, NY"
-  date_start = "2017-06-01"
-  date_end = "2017-09-01"
-  description = """
-  """
 
-[[experience]]
-  title = "Research Intern"
-  company = "MulticoreWare, Inc."
-  company_url = ""
-  location = "Champaign, IL"
-  date_start = "2015-06-01"
-  date_end = "2015-09-01"
-  description = """
-  """
+#### Research Intern for Optimized CLOUD Systems, IBM
+* T.J. Watson Research Center, Yorktown Heights, NY
+* Summer 2017
 
-[[experience]]
-  title = "Research Intern"
-  company = "MulticoreWare, Inc."
-  company_url = ""
-  location = "Champaign, IL"
-  date_start = "2014-06-01"
-  date_end = "2014-09-01"
-  description = """
-  """
+#### Research Intern, MulticoreWare, Inc.
+* Champaign, IL
+* Summer 2015
 
-[[experience]]
-  title = "Co-op Engineer Floating-Point RTL"
-  company = "AMD"
-  company_url = ""
-  location = "Fort Collins, CO"
-  date_start = "2013-06-01"
-  date_end = "2013-09-01"
-  description = """
-  """
+#### Research Intern, MulticoreWare, Inc.
+* Champaign, IL
+* Summer 2014
 
-[[experience]]
-  title = "Co-op Engineer Floating-Point RTL"
-  company = "AMD"
-  company_url = ""
-  location = "Fort Collins, CO"
-  date_start = "2012-06-01"
-  date_end = "2012-09-01"
-  description = """
-  """ -->
+#### Co-op Engineer Floating-Point RTL, AMD
+* Fort Collins, CO
+* Summer 2013
+
+#### Co-op Engineer Floating-Point RTL, AMD
+* Fort Collins, CO
+* Summer 2012
+
