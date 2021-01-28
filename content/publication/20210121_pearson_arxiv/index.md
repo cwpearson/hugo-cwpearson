@@ -5,7 +5,7 @@ draft = false
 
 math = false
 
-tags = ["stencil, mpi"]
+tags = ["stencil", "mpi"]
 +++
 
 **Carl Pearson, Kun Wu, I-Hsin Chung, Jinjun Xiong, Wen-Mei Hwu**
