@@ -3,16 +3,17 @@ date = "2017-03-13T04:40:57-05:00"
 title = "High-Performance Application Studies"
 external_link = ""
 image_preview = ""
-summary = "Tools and Techniques for Code Acceleration"
 highlight = true
 math = false
-tags = ["impact","c3sr"]
+tags = ["applications"]
 
 [header]
   caption = ""
   image = ""
 
 +++
+
+### Tools and Techniques for Code Acceleration
 
 I worked with Abdul Dakkak and Cheng Li at Illinois on a full-stack performance analasis platform for machine learning software. The same infrastructure is also used to deliver some course projects for GPU programming courses.
 

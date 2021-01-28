@@ -21,12 +21,6 @@ publication_types = ["1"]
 publication = "2019 IEEE High Performance Extreme Computing Conference"
 publication_short = "In *HPEC'19*"
 
-# Abstract and optional shortened version.
-abstract = """
-Deep neural networks (DNNs) have been widely adopted in many domains, including computer vision, natural language processing, and medical care. Recent research revealsthat sparsity in DNN parameters can be exploited to reduce inference computational complexity and improve network quality. However, sparsity also introduces irregularity and extra complexity in data processing, which make the accelerator design challenging. This work presents the design and implementation of a highly flexible sparse DNN inference accelerator on FPGA.Our proposed inference engine can be easily configured to beused in both mobile computing and high-performance computing scenarios. Evaluation shows our proposed inference engine effectively accelerates sparse DNNs and outperforms CPU solution by up to 4.7x in terms of energy efficiency.
-"""
-abstract_short = ""
-
 
 # Does this page contain LaTeX math? (true/false)
 math = false
@@ -69,3 +63,4 @@ url_source = ""
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = ""
 +++
+Deep neural networks (DNNs) have been widely adopted in many domains, including computer vision, natural language processing, and medical care. Recent research revealsthat sparsity in DNN parameters can be exploited to reduce inference computational complexity and improve network quality. However, sparsity also introduces irregularity and extra complexity in data processing, which make the accelerator design challenging. This work presents the design and implementation of a highly flexible sparse DNN inference accelerator on FPGA.Our proposed inference engine can be easily configured to beused in both mobile computing and high-performance computing scenarios. Evaluation shows our proposed inference engine effectively accelerates sparse DNNs and outperforms CPU solution by up to 4.7x in terms of energy efficiency.

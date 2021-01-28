@@ -91,31 +91,39 @@ url = "https://scholar.google.com/citations?user=K2nzqpYAAAAJ&hl=en"
   url = "/about/"
 
   [[menu.main]]
-  name = "Recognition"
-  weight = 200
-  identifier = "awards"
-  url = "/awards/"
-
-  [[menu.main]]
-  name = "Experience"
-  weight = 200
-  identifier = "experience"
-  url = "/experience/"
-
-  [[menu.main]]
   name = "Publications"
   weight = 300
   identifier = "publications"
   url = "/publication/"
 
   [[menu.main]]
-  name = "Posts"
+  name = "Projects"
   weight = 400
+  identifier = "projects"
+  url = "/project/"
+
+  [[menu.main]]
+  name = "Recognition"
+  weight = 500
+  identifier = "awards"
+  url = "/awards/"
+
+  [[menu.main]]
+  name = "Experience"
+  weight = 600
+  identifier = "experience"
+  url = "/experience/"
+
+  [[menu.main]]
+  name = "Talks"
+  weight = 700
+  identifier = "talks"
+  url = "/talk/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 800
   identifier = "posts"
   url = "/post/"
 
-  [[menu.main]]
-  name = "Projects"
-  weight = 500
-  identifier = "projects"
-  url = "/project/"
+
