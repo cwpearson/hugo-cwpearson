@@ -33,7 +33,7 @@ customCss = ["css/custom.css"]
 customJs = [] 
 mainSections = ["publication"]
 images = ["img/bubbles.jpg"]
-doNotLoadAnimations = false
+doNotLoadAnimations = true
 # Form Spree Contact Form
 #contactFormAction = "https://formspree.io/f/your-form-hash-here"
 # Google Site Verify
