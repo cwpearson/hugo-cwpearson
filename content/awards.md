@@ -31,12 +31,12 @@ title = "Recognition"
 * September 2017 - June 2018
 
 
-#### Top-20 Poster"
+#### Top-20 Poster
 * Nvidia GPU Technology Conference
 * May 2017
 
 
-#### Teacher Ranked as Excellent by Students"
+#### Teacher Ranked as Excellent by Students
 * University of Illinois Urbana-Champaign
 * September 2015
 
