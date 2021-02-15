@@ -16,11 +16,9 @@ of if you already have it cloned
     git submodule update
 
 Install 
-* [Hugo-extended 0.65.3](https://github.com/gohugoio/hugo/releases/tag/v0.65.3)
+* [Hugo-extended 0.80.0](https://github.com/gohugoio/hugo/releases/tag/v0.80.0)
 * Latest extended: `snap install hugo --channel=extended`
 
 Automatically deploys master brach through netlify on push.
 
-## Future
-
-looks like gcushen/hugo-academic is now wowchemy/starter-academic. Watch for releases here?
+## To-do:
