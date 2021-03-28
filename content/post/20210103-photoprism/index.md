@@ -131,6 +131,8 @@ Donating to EFF: https://eff.org/donate-le
 
 ## Configure and Start Photoprism
 
+I used the photoprism commit `af71e5f704461012be028834ab499f9c2b8e0a7e` from Jan 2, 2021.
+
 Photoprism is configured with `docker-compose.yml`.
 
 You will need to choose and enter three seprate passwords.
@@ -260,6 +262,15 @@ I guess this causes the photoprism image to be restarted unless you explicitly s
 * `docker-compose up -d`
 
 
+## To renew the LetsEncrypt Certificate
+
+1. Shut down photoprism `docker-compose stop`
+2. Stop nginx proxy: `systemctl stop nginx`
+3. Edit the VM to allow HTTP traffic
+4. Renew the cert `sudo certbot certonly -d photoprism.example.com`
+5. Start nginx `systemctl start nginx`
+6. Start photoprism `docker-compose up -d`
+
 ## All Finished!
 
 Congrats!
@@ -269,10 +280,3 @@ You almost certainly want this.
 
 I set up a weekly automated snapshot under `Compute Engine` > `Snapshots` > `Snapshot Schedules`.
 Attach it to the machine on the `Disks` page with `Edit`.
-
-
-
-
-
-
-
