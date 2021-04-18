@@ -155,7 +155,8 @@ To start photoprism, run `sudo docker-compose up -d`
 You can look at logs with `sudo docker-compose logs`. you should not see anything like "failed to connect to database"
 
 If you goof this up, you need to do something like (this will delete everything)
-```
+
+``` bash
 sudo docker-compose down
 sudo docker volume prune
 sudo rm -r storage database
@@ -172,7 +173,7 @@ First, create `/etc/nginx/sites-enabled/photoprism.example.com`
 Put the following content in it.
 This is taken from the PhotoPrism instructions, except `proxy_pass http://localhost:2342;` instead of `proxy_pass http://docker.homenet:2342;`
 
-```
+```txt
 # PhotoPrism Nginx config with SSL HTTP/2 and reverse proxy
 # This file gives you an example on how to secure you PP instance with SSL
 server {
@@ -273,7 +274,7 @@ I guess this causes the photoprism image to be restarted unless you explicitly s
 
 ## Get updates
 
-```
+```bash
 docker-compose pull photoprism
 docker-compose stop photoprism
 docker-compose up -d photoprism

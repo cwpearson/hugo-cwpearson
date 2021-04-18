@@ -1,0 +1,5 @@
+/* works okay in light or dark mode with friendly hugo chromastyle */
+.language-latex {color: gray}
+.language-bash {color: gray}
+.language-make {color: gray}
+.language-txt {color: gray}
