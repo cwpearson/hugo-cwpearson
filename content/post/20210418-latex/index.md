@@ -65,6 +65,14 @@ Use `\mbox` for that.
 \mbox{\_\_device\_\_}
 ```
 
+Latex will only break already-hypenated words at the hyphen position.
+You can add more optional breaks with `{\-}`
+
+```latex
+A super-hypenated-latex-confusing compound adjective.
+A su{\-}per-hy{\-}phen{\-}at{\-}ed...
+```
+
 ## lstlisting
 
 The `lstlisting` environment is used to add and format code in Latex documents.
