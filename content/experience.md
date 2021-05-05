@@ -44,7 +44,13 @@ See the [Github repository](https://github.com/cwpearson/nvidia-performance-tool
 
 ## Industry
 
-#### Treasurer, University YMCA,
+#### Postdoctoral Appointee (01465), Sandia National Laboratories
+* Albuquerque, NM
+* March 2021 - present
+* Multi-GPU Communication
+* Sparse Matrix Operations
+
+#### Treasurer, University YMCA
 * Urbana, IL
 * August 2019 - April 2020
 * Community member of the board of governors, serving as the chair of the budget committee, the Treasurer, and on the Bailey Scholarship steering committee.
