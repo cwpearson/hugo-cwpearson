@@ -23,3 +23,4 @@ It focuses on the datatype strategy itself, implementation decisions based off m
 
 * [slides](/pdf/20210505_unm_slides.pdf)
 * [github](https://github.com/cwpearson/tempi)
+* [paper](/pdf/20210621_pearson_hpdc.pdf)
