@@ -67,7 +67,7 @@ url = "https://github.com/cwpearson"
 [[params.socialIcons]]
 icon = "fas fa-envelope"
 title = "e-mail"
-url = "mailto:pearson@illinois.edu"
+url = "mailto:cwpears@sandia.gov"
 
 [[params.socialIcons]]
 icon = "fas fa-university"
