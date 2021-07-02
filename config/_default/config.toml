@@ -1,11 +1,11 @@
-baseURL = "https://www.carlpearson.net/"
-languageCode = "en"
 DefaultContentLanguage = "en"
-title = "Website of Carl Pearson"
-theme = "anatole"
-summarylength = 10
+baseURL = "https://www.carlpearson.net/"
 enableEmoji = true
 enableRobotsTXT = true
+languageCode = "en"
+summarylength = 10
+theme = "anatole"
+title = "Website of Carl Pearson"
 
 # Enable Disqus
 #disqusShortname = ""
@@ -14,27 +14,27 @@ enableRobotsTXT = true
 googleAnalytics = "UA-54975774-2"
 
 # Syntax highlighting
-pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
 
 [params]
-title = "Carl Pearson"
 author = "Carl Pearson"
+title = "Carl Pearson"
 # copyright = "2020-2021"
-description = "Postdoctoral Appointee, Sandia National Labs. All opinions are my own."
-profilePicture = "img/avatar.jpg"
-keywords = ""
+description = "Postdoctoral Appointee, Sandia National Labs and Research Assistant Professor, University of New Mexico CS. All opinions are my own."
 favicon = "favicons/"
+keywords = ""
+profilePicture = "img/avatar.jpg"
 # example ["css/custom.css"]
 # added css/syntax.css after hugo gen chromastyles --style=mannai > assets/css/syntax.css
-customCss = ["css/custom.css","css/syntax.css"]
+customCss = ["css/custom.css", "css/syntax.css"]
 # customCss = []
 # example ["js/custom.js"]
-customJs = [] 
-mainSections = ["publication"]
-images = ["img/bubbles.jpg"]
+customJs = []
 doNotLoadAnimations = true
+images = ["img/bubbles.jpg"]
+mainSections = ["publication"]
 # Form Spree Contact Form
 #contactFormAction = "https://formspree.io/f/your-form-hash-here"
 # Google Site Verify
@@ -49,8 +49,8 @@ doNotLoadAnimations = true
 
 ## Math settings
 [params.math]
-enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
-use = "katex"  # options: "katex", "mathjax". default is "katex".
+enable = false # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex" # options: "katex", "mathjax". default is "katex".
 
 ## Social links
 # use 'fab' when brand icons, use 'fas' when standard solid icons.
@@ -74,51 +74,48 @@ icon = "fas fa-university"
 title = "Google Scholar"
 url = "https://scholar.google.com/citations?user=K2nzqpYAAAAJ&hl=en"
 
-
 ## Menu items
 
 [menu]
 
-  [[menu.main]]
-  name = "Home"
-  identifier = "home"
-  weight = 100
-  url = "/"
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 100
 
-  [[menu.main]]
-  name = "Publications"
-  weight = 300
-  identifier = "publications"
-  url = "/publication/"
+[[menu.main]]
+identifier = "publications"
+name = "Publications"
+url = "/publication/"
+weight = 300
 
-  [[menu.main]]
-  name = "Projects"
-  weight = 400
-  identifier = "projects"
-  url = "/project/"
+[[menu.main]]
+identifier = "projects"
+name = "Projects"
+url = "/project/"
+weight = 400
 
-  [[menu.main]]
-  name = "Recognition"
-  weight = 500
-  identifier = "awards"
-  url = "/awards/"
+[[menu.main]]
+identifier = "awards"
+name = "Recognition"
+url = "/awards/"
+weight = 500
 
-  [[menu.main]]
-  name = "Experience"
-  weight = 600
-  identifier = "experience"
-  url = "/experience/"
+[[menu.main]]
+identifier = "experience"
+name = "Experience"
+url = "/experience/"
+weight = 600
 
-  [[menu.main]]
-  name = "Talks"
-  weight = 700
-  identifier = "talks"
-  url = "/talk/"
+[[menu.main]]
+identifier = "talks"
+name = "Talks"
+url = "/talk/"
+weight = 700
 
-  [[menu.main]]
-  name = "Posts"
-  weight = 800
-  identifier = "posts"
-  url = "/post/"
-
-
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/post/"
+weight = 800
