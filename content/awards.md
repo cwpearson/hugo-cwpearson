@@ -4,11 +4,11 @@ title = "Recognition"
 
 #### [C3SR Director's Distinguished Service Award](https://c3sr.com)
 * University of Illinois Urbana-Champaign
-* July 2021
+* July 30, 2021
 
 #### [C3SR Best Research Award](https://c3sr.com)
 * University of Illinois Urbana-Champaign
-* July 2021
+* July 30, 2021
 
 #### [E. A. Reid Fellowship](https://ece.illinois.edu/academics/grad/fellowships/reid)
 * University of Illinois Urbana-Champaign
