@@ -2,8 +2,16 @@
 title = "Recognition"
 +++
 
+#### [C3SR Director's Distinguished Service Award](https://c3sr.com)
+* University of Illinois Urbana-Champaign
+* July 2021
+
+#### [C3SR Best Research Award](https://c3sr.com)
+* University of Illinois Urbana-Champaign
+* July 2021
+
 #### [E. A. Reid Fellowship](https://ece.illinois.edu/academics/grad/fellowships/reid)
-* University of Illinois Urbana-Champaig
+* University of Illinois Urbana-Champaign
 * September 2019 - June 2020
 
 #### [Student Innovation Award for Update on k-truss Decomposition on GPU](https://graphchallenge.mit.edu/champions)
