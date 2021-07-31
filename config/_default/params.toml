@@ -1,0 +1,59 @@
+
+author = "Carl Pearson"
+title = "Carl Pearson"
+#copyright = "2020-2021"
+description = "Postdoctoral Appointee, Sandia National Labs and Research Assistant Professor (LAT), University of New Mexico CS. All opinions are my own."
+favicon = "favicons/"
+keywords = ""
+profilePicture = "img/avatar.png"
+# example ["css/custom.css"]
+# added css/syntax.css after hugo gen chromastyles --style=mannai > assets/css/syntax.css
+customCss = ["css/custom.css", "css/syntax.css"]
+# example ["js/custom.js"]
+customJs = []
+doNotLoadAnimations = true
+images = ["images/site-feature-image.png"]
+mainSections = ["post"]
+# Form Spree Contact Form
+#contactFormAction = "https://formspree.io/f/your-form-hash-here"
+# Google Site Verify
+#googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+indexDateFormat = "2/1/2006"
+listDateFormat = "2/1/2006"
+singleDateFormat = "2/1/2006"
+# Commento Comments
+# CommentoURL = "https://commento.example.com/js/commento.js"
+# Read More links for truncated summaries
+# readMore = true
+# postSectionName = "blog"
+
+[simpleAnalytics]
+# enable = true
+# customurl = "https://analytics.example.com"
+
+## Math settings
+[math]
+enable = false # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex" # options: "katex", "mathjax". default is "katex".
+
+## Social links
+# use 'fab' when brand icons, use 'fas' when standard solid icons.
+[[socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/cwpearson/"
+
+[[socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/cwpearson"
+
+[[socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:cwpears@sandia.gov"
+
+[[socialIcons]]
+icon = "fas fa-university"
+title = "Google Scholar"
+url = "https://scholar.google.com/citations?user=K2nzqpYAAAAJ&hl=en"

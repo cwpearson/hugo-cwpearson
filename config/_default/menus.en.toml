@@ -1,0 +1,41 @@
+[[main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 100
+
+[[main]]
+identifier = "publications"
+name = "Publications"
+url = "/publication/"
+weight = 300
+
+[[main]]
+identifier = "projects"
+name = "Projects"
+url = "/project/"
+weight = 400
+
+[[main]]
+identifier = "awards"
+name = "Recognition"
+url = "/awards/"
+weight = 500
+
+[[main]]
+identifier = "experience"
+name = "Experience"
+url = "/experience/"
+weight = 600
+
+[[main]]
+identifier = "talks"
+name = "Talks"
+url = "/talk/"
+weight = 700
+
+[[main]]
+identifier = "posts"
+name = "Posts"
+url = "/post/"
+weight = 800
