@@ -40,7 +40,7 @@ categories = []
 
 +++
 
-For reasons beyond my comprehension, MacOS'd Disk Utility randomly won't format external drives.
+For reasons beyond my comprehension, macOS's Disk Utility randomly won't format external drives.
 
 For example, here's what disk utility shows when I first plug in the flash drive.
 
