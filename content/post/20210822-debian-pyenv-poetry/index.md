@@ -7,7 +7,7 @@ draft = false
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Carl Pearson"]
 
-tags = [""]
+tags = []
 
 summary = ""
 
@@ -42,12 +42,13 @@ categories = []
 
 ## Pyenv
 
-[pyenv](https://github.com/pyenv/pyenv) is...
+[pyenv](https://github.com/pyenv/pyenv) is a version manger for python.
+It streamlines the installation and use of multiple python version on a single system.
 
 On Debian, you can visit [pyenv-installer](https://github.com/pyenv/pyenv-installer) to install pyenv.
 
 Then, I had to add to my `.zshrc`:
-```zsh
+```bash
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init --path)"
@@ -55,7 +56,7 @@ eval "$(pyenv init -)"
 ```
 
 To install new python versions using pyenv, install the python build dependencies:
-```
+```bash
 sudo apt-get update; sudo apt-get install make build-essential libssl-dev zlib1g-dev \
 libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm \
 libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
@@ -74,7 +75,7 @@ Basically, `pyenv` allows you to associate different python versions with differ
 Poetry is a package manager for python.
 It needs python to install, but once it is installed it will use whatever python is in your path (i.e., whatever you set with `pyenv`).
 
-```
+```bash
 curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python
 ```
 
@@ -83,7 +84,7 @@ You may need to follow the instructions to do something similar.
 
 It's also nice to
 
-```
+```bash
 poetry config virtualenvs.in-project true
 ```
 
