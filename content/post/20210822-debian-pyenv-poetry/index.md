@@ -1,7 +1,7 @@
 +++
 title = "Setting up Python with Pyenv and Poetry on Debian"
 date = 2021-08-22T00:00:00
-lastmod = 2021-08-22T00:00:00
+lastmod = 2021-11-30T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -40,6 +40,16 @@ categories = []
 
 +++
 
+Setting up a python development environment is annoying.
+We'd especially like to avoid:
+
+* Using the system python: it may be way out of date, have special modifications, or be required for the system to function (and therefore we should avoid messing with it).
+* Installing packages globally: different projects may require different versions, and the system may have it's own package requirements that conflict with ours.
+
+The solution has two components:
+1. install and use whatever version of python you like
+2. create isolated environments using your preferred version of python for each project
+
 ## Pyenv
 
 [pyenv](https://github.com/pyenv/pyenv) is a version manger for python.
@@ -55,7 +65,7 @@ eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
 ```
 
-To install new python versions using pyenv, install the python build dependencies:
+To install new python versions using pyenv, you may need to install the python build dependencies:
 ```bash
 sudo apt-get update; sudo apt-get install make build-essential libssl-dev zlib1g-dev \
 libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm \
@@ -74,6 +84,7 @@ Basically, `pyenv` allows you to associate different python versions with differ
 
 Poetry is a package manager for python.
 It needs python to install, but once it is installed it will use whatever python is in your path (i.e., whatever you set with `pyenv`).
+If the system python is new enough, it is fine to use the system python to install poetry.
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python
