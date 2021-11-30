@@ -43,6 +43,8 @@ categories = []
 Here are some interesting things I read this month.
 Presented without comment or endorsement.
 
+* [New Concerning Variant: B.1.1.529](https://yourlocalepidemiologist.substack.com/p/new-concerning-variant-b11529), Kaitlin Jetelina ([archive](http://web.archive.org/web/20211130193449/https://yourlocalepidemiologist.substack.com/p/new-concerning-variant-b11529))
+* [Ask HN: What are the best-designed things you've ever used?](https://news.ycombinator.com/item?id=29353980)
 * [Hacker News Undocumented](https://github.com/minimaxir/hacker-news-undocumented) ([archive](http://web.archive.org/web/20211130191445/https://github.com/minimaxir/hacker-news-undocumented))
-* [](https://blog.jaibot.com/the-copenhagen-interpretation-of-ethics/) ([archive](http://web.archive.org/web/20211130191353/https://blog.jaibot.com/the-copenhagen-interpretation-of-ethics/))
-* [](https://everythingstudies.com/2018/11/16/anatomy-of-racism/) ([archive](http://web.archive.org/web/20211130191402/https://everythingstudies.com/2018/11/16/anatomy-of-racism/))
+* [The Copenhagen Interpretation of Ethics](https://blog.jaibot.com/the-copenhagen-interpretation-of-ethics/) ([archive](http://web.archive.org/web/20211130191353/https://blog.jaibot.com/the-copenhagen-interpretation-of-ethics/))
+* [Anatomy of Racism](https://everythingstudies.com/2018/11/16/anatomy-of-racism/) ([archive](http://web.archive.org/web/20211130191402/https://everythingstudies.com/2018/11/16/anatomy-of-racism/))
