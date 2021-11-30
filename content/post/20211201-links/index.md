@@ -1,13 +1,13 @@
 +++
-title = "didillinois.win"
-date = 2021-11-30T00:00:00
-lastmod = 2021-11-30T00:00:00
-draft = true
+title = "Interesting Links from November"
+date = 2021-12-01T00:00:00
+lastmod = 2021-12-01T00:00:00
+draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Carl Pearson"]
 
-tags = [""]
+tags = []
 
 summary = ""
 
@@ -40,3 +40,9 @@ categories = []
 
 +++
 
+Here are some interesting things I read this month.
+Presented without comment or endorsement.
+
+* [Hacker News Undocumented](https://github.com/minimaxir/hacker-news-undocumented) ([archive](http://web.archive.org/web/20211130191445/https://github.com/minimaxir/hacker-news-undocumented))
+* [](https://blog.jaibot.com/the-copenhagen-interpretation-of-ethics/) ([archive](http://web.archive.org/web/20211130191353/https://blog.jaibot.com/the-copenhagen-interpretation-of-ethics/))
+* [](https://everythingstudies.com/2018/11/16/anatomy-of-racism/) ([archive](http://web.archive.org/web/20211130191402/https://everythingstudies.com/2018/11/16/anatomy-of-racism/))
