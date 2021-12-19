@@ -125,34 +125,36 @@ These fragments are combined with an HTML header fragment...
 ...and stitched into a webpage using bash:
 
 ```bash
-	cat header.html > index.html
-	echo "<div class="row">"  >> index.html
-	echo "<div class="column">" >> index.html
-	cat basketball.html >> index.html
-	echo "</div>" >> index.html
-	echo "<div class="column">" >> index.html
-	cat football.html >> index.html
-	echo "</div>" >> index.html
-	echo "</div>" >> index.html 
-	echo "<div class="row">"  >> index.html
-	echo "<div class="column">" >> index.html
-	cat volleyball.html >> index.html
-	echo "</div>" >> index.html
-	echo "</div>" >> index.html 
+cat header.html > index.html
+echo "<div class="row">"  >> index.html
+echo "<div class="column">" >> index.html
+cat basketball.html >> index.html
+echo "</div>" >> index.html
+echo "<div class="column">" >> index.html
+cat football.html >> index.html
+echo "</div>" >> index.html
+echo "</div>" >> index.html 
+echo "<div class="row">"  >> index.html
+echo "<div class="column">" >> index.html
+cat volleyball.html >> index.html
+echo "</div>" >> index.html
+echo "</div>" >> index.html 
 ```
 
-The combind result is that each sport's HTML fragment is put into its own div, which are organized hierarchically into a table of `row` and `column`.
-A bit of CSS is used to handle the responsive layout of those divs.
+The combind result is that each sport's HTML fragment is put into its own div.
+The divs are organized into a table of `row` and `column`.
+A bit of CSS is used to handle the responsive layout of the divs wrapping the sports.
 
 ## Hosting
 
 I chose to host on Netlify.
-Netlify can run some automated steps every time there is a push to a github repository.
+Instead of creating an `index.html` file and uploading it, Netlify can run some automated steps every time there is a push to a github repository.
 I automated the generation of the website from the markdown files using GNU Make.
 Then, on Netlify under "Site Settings" > "Build and Deploy", I specified `make` as the build command.
+Netlify will clone the repository every time I push a modification to the markdown files, run `make` to produce `index.html`, and serve that as the site.
 
 As of this writing, Netlify provides 100GB bandwidth and 300 build minutes, which is more than sufficient for a 0-traffic small static website.
-Netlify [provides instructions](https://docs.netlify.com/domains-https/custom-domains/configure-external-dns/) for how to configure the external DNS (more on that below).
+Netlify [provides instructions](https://docs.netlify.com/domains-https/custom-domains/configure-external-dns/) for how to configure the external DNS.
 
 
 
