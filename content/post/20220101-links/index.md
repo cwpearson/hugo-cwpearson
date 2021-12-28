@@ -1,7 +1,7 @@
 +++
 title = "Interesting Links from December"
-date = 2021-11-30T00:00:00
-lastmod = 2021-11-30T00:00:00
+date = 2021-12-31T00:00:00
+lastmod = 2021-12-31T00:00:00
 draft = true
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -43,6 +43,7 @@ categories = []
 Here are some interesting things I read this month.
 Presented without comment or endorsement.
 
+* [Interfaces and Nil in Go, or, Don't Lie to Computers][14] ([archive][14w])
 * [Explaining AP style on Black and white][13] ([archive][13w])
 * [The growth of command line options, 1979-Present][12] ([archive][12w])
 * [Uncomfortable Truths in Software Engineering][11], ([archive][11w]) [HN][11a], ([archive][11aw])
@@ -101,3 +102,6 @@ Presented without comment or endorsement.
 
 [13]: https://apnews.com/article/archive-race-and-ethnicity-9105661462
 [13w]: https://web.archive.org/web/20211218194727/https://apnews.com/article/archive-race-and-ethnicity-9105661462
+
+[14]: http://www.jerf.org/iri/post/2957
+[14w]: http://web.archive.org/web/20211228214306/http://www.jerf.org/iri/post/2957
