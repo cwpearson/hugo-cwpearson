@@ -43,6 +43,8 @@ categories = []
 Here are some interesting things I read this month.
 Presented without comment or endorsement.
 
+* [Lessons from my PhD][16] ([archive][16w])
+* [What's the Best Insult you Know?][15] ([archive][15w])
 * [Interfaces and Nil in Go, or, Don't Lie to Computers][14] ([archive][14w])
 * [Explaining AP style on Black and white][13] ([archive][13w])
 * [The growth of command line options, 1979-Present][12] ([archive][12w])
@@ -105,3 +107,9 @@ Presented without comment or endorsement.
 
 [14]: http://www.jerf.org/iri/post/2957
 [14w]: http://web.archive.org/web/20211228214306/http://www.jerf.org/iri/post/2957
+
+[15]: https://reddit.com/r/AskReddit/comments/rj8q6k/whats_the_best_insult_you_know/
+[15w]: http://web.archive.org/web/20220102221255/https://www.reddit.com/r/AskReddit/comments/rj8q6k/whats_the_best_insult_you_know/
+
+[16]: https://web.eecs.utk.edu/~azh/blog/lessonsfrommyphd.html
+[16w]: https://web.archive.org/web/20220102221404/https://web.eecs.utk.edu/~azh/blog/lessonsfrommyphd.html
