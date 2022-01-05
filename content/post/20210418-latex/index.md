@@ -1,7 +1,7 @@
 +++
 title = "Tips for Technical Writing in Latex"
 date = 2021-04-18T00:00:00
-lastmod = 2021-04-18T00:00:00
+lastmod = 2022-01-05T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -90,9 +90,10 @@ The
 ## SI units
 
 Use the `siunit` package to automatically format numbers with SI units.
+(`[binary-units]` may not be necessary depending on your version.)
 
 ```latex
-\usepackage[binary-units, group-separator={,}]{siunitx}
+\usepackage[binary-units]{siunitx}
 \SI{512}{\byte}
 ```
 
@@ -103,6 +104,7 @@ Latex can make it hard to manually format digit grouping and separators in numbe
 The `number` package makes this easy.
 
 ```latex
+\usepackage[group-separator={,}]{siunitx}
 \num{242000}
 ```
 
