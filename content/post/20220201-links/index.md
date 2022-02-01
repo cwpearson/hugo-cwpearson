@@ -44,6 +44,7 @@ Here are some interesting things I read this month.
 Presented without comment or endorsement.
 
 
+* [This World of Ours][11] ([pdf][11w])
 * [How ISO C Became Unusable for OS Development][10] ([pdf][10w])
 * [u/Ilforte on Lies and Loyalty][9] ([archive][9w])
 * [XKCD: Average Familiarity][8] ([archive][8w])
@@ -86,3 +87,6 @@ Presented without comment or endorsement.
 
 [10]: https://arxiv.org/pdf/2201.07845.pdf
 [10w]: static/pdf/2201.07845.pdf
+
+[11]: https://www.usenix.org/system/files/1401_08-12_mickens.pdf
+[11w]: static/pdf/1401_08-12_mickens.pdf
