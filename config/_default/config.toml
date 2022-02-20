@@ -1,11 +1,13 @@
 DefaultContentLanguage = "en"
 baseURL = "https://www.carlpearson.net/"
+languageCode = "en"
+title = "Website of Carl Pearson"
+
+theme = "anatole"
+
 enableEmoji = true
 enableRobotsTXT = true
-languageCode = "en"
 summarylength = 10
-theme = "anatole"
-title = "Website of Carl Pearson"
 
 # Enable Disqus
 #disqusShortname = ""
@@ -22,3 +24,8 @@ pygmentsUseClasses = true
 [markup.goldmark]
 [markup.goldmark.renderer]
 unsafe = true
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
