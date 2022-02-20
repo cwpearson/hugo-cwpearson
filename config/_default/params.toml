@@ -37,7 +37,7 @@ singleDateFormat = "2/1/2006"
 
 [umami]
 id = "07cf7974-1687-4647-8ba3-7072b8afee3c"
-serverURL = "analytics.carlpearson.net"
+serverURL = "analytics.carlpearson.net:3000"
 
 ## Math settings
 [math]
