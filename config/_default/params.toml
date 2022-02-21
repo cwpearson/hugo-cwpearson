@@ -36,7 +36,7 @@ singleDateFormat = "2/1/2006"
 # serverURL = "https://analytics.example.com"
 
 [umami]
-id = "1b880f7b-12a1-42db-8ce4-dfde53c9c67f"
+id = "396fc01e-d393-4b58-b529-7a6ebafc1ed8"
 serverURL = "analytics.carlpearson.net"
 
 ## Math settings
