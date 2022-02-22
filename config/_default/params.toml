@@ -18,9 +18,9 @@ mainSections = ["post"]
 #contactFormAction = "https://formspree.io/f/your-form-hash-here"
 # Google Site Verify
 googleSiteVerify = "U9IpipB53J4-oqOojG29IDCgopThWA-fegNu76eJPtE"
-indexDateFormat = "2/1/2006"
-listDateFormat = "2/1/2006"
-singleDateFormat = "2/1/2006"
+indexDateFormat = "1/2/2006"
+listDateFormat = "1/2/2006"
+singleDateFormat = "1/2/2006"
 # Commento Comments
 # CommentoURL = "https://commento.example.com/js/commento.js"
 # Read More links for truncated summaries
