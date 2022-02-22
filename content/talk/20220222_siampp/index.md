@@ -1,7 +1,7 @@
 ---
 title: Automatic Discovery of Implementation Rules for Fast GPU + MPI Operations
 
-date: "2022-02-22T00:00:00Z"
+date: "2022-02-25T00:00:00Z"
 
 tags: [mpi]
 ---
