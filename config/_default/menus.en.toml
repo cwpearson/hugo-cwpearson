@@ -11,6 +11,12 @@ url = "/publication/"
 weight = 300
 
 [[main]]
+identifier = "talks"
+name = "Talks"
+url = "/talk/"
+weight = 350
+
+[[main]]
 identifier = "projects"
 name = "Projects"
 url = "/project/"
@@ -27,12 +33,6 @@ identifier = "experience"
 name = "Experience"
 url = "/experience/"
 weight = 600
-
-[[main]]
-identifier = "talks"
-name = "Talks"
-url = "/talk/"
-weight = 700
 
 [[main]]
 identifier = "posts"

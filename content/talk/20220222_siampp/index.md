@@ -6,7 +6,7 @@ date: "2022-02-22T00:00:00Z"
 tags: [mpi]
 ---
 
-*Feb 25th, 5:00 PM MS61 Experiences in Developing GPU Support for DOE Math Libraries*
+*Feb 25th, 4:00 PM MS61 Experiences in Developing GPU Support for DOE Math Libraries*
 
 Invited talk to SIAM Parallel Processing Mini-symposium
 
