@@ -50,8 +50,13 @@ title = "Recognition"
 
 ## Patents
 
-#### United States 20140122579
+#### Web-based method for physical object delivery though use of 3d printing technology 
+United States 20140122579
 *Nov 01, 2012*
 
-Web-based method for physical object delivery though use of 3d printing technology
 
+#### Critical path analysis of activity trace files.
+United States Patent Application No. 16/751,317.
+*Jan 24, 2020*
+
+Chung, I-Hsin, JinJun Xiong, and Carl Pearson.
