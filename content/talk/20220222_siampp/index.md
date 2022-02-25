@@ -1,6 +1,6 @@
 ---
 title: Automatic Discovery of Implementation Rules for Fast GPU + MPI Operations
-date: "2022-02-22T00:00:00Z"
+date: "2022-02-25T00:00:00Z"
 tags: [MPI, CUDA]
 ---
 
@@ -15,3 +15,4 @@ Developing a high-performance implementation of a distributed computational kern
 ### Link
 
 * [slides](/pdf/20220225_siampp.pdf)
+* [github](https://github.com/sandialabs/tenzing-core)
