@@ -19,4 +19,6 @@ Developing a high-performance implementation of a distributed computational kern
 ### Link
 
 * [slides](/pdf/20220225_siampp.pdf)
-* [github](https://github.com/sandialabs/tenzing-core)
+* [github (tenzing-core)](https://github.com/sandialabs/tenzing-core)
+* [github (tenzing-mcts)](https://github.com/sandialabs/tenzing-mcts)
+* [github (tenzing-dfs)](https://github.com/sandialabs/tenzing-dfs)
