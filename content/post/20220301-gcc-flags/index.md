@@ -44,7 +44,8 @@ C++ is hard; make it a little bit easier.
 The summaries are taken from https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html.
 
 The effectiveness of some of these options depends on various optmization passes.
-You may also be able to selectively disable warnings for certain chunks of code (https://gcc.gnu.org/onlinedocs/gcc/Diagnostic-Pragmas.html)
+You may also be able to selectively disable warnings for certain chunks of code (https://gcc.gnu.org/onlinedocs/gcc/Diagnostic-Pragmas.html).
+This can be especially useful for header files with contents you can't control very well.
 
 ```c++
 #pragma GCC diagnostic push
