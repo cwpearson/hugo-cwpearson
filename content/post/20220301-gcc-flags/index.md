@@ -44,6 +44,7 @@ The summaries are taken from https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.
 
 * `-Wall`: turns on many warnings, but not "all."
 * `-Wextra`: turns on even more warnings, but still not all.
+* `-Wpedantic`: Issue all the warnings demanded by strict ISO C++.
 * `-Wcast-align`: warn whenever a pointer is cast such that the required alignment is increased (`char*` -> `int*`).
 * `-Wcast-qual`: warn when qualifier (`const`) is cast away, or introduces a qualifier in an unsafe way.
 * `-Wdisabled-optimization`: warn if a requested optimization pass is disabled (e.g. code is too large, has some other feature that makes g++ give up).
@@ -54,7 +55,6 @@ The summaries are taken from https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.
 * `-Wmissing-include-dirs`: warn if a user-supplied include dir does not exist.
 * `-Wnull-dereference`: warn if paths that dereference a null pointer are detected.
 * `-Woverloaded-virtual`: warn when a function declaration hides virtual functions from a base class
-* `-Wpedantic`: Issue all the warnings demanded by strict ISO C++.
 * `-Wpointer-arith`: warn about `sizeof` for function types or `void`.
 * `-Wshadow`: warn about variable shadowing and global function shadowing.
 * `-Wswitch-enum`: warn when a `switch` on an enum type is missing one of the enums.
