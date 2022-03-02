@@ -45,7 +45,7 @@ The summaries are taken from https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.
 * `-Wall`: turns on many warnings, but not "all."
 * `-Wextra`: turns on even more warnings, but still not all.
 * `-Wcast-align`: warn whenever a pointer is cast such that the required alignment is increased (`char*` -> `int*`).
-* `-Wcast-qual`: warn when qualifier (`cosnst`) is cast away, or introduces a qualifier in an unsafe way.
+* `-Wcast-qual`: warn when qualifier (`const`) is cast away, or introduces a qualifier in an unsafe way.
 * `-Wdisabled-optimization`: warn if a requested optimization pass is disabled (e.g. code is too large, has some other feature that makes g++ give up).
 * `-Wduplicated-branches`: warn if if-else branches have identical bodies.
 * `-Wduplicated-cond`: warn about duplicated conditions in an if-else-if chain.
