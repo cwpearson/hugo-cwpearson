@@ -80,3 +80,4 @@ Also, in debug mode:
 
 * `-fno-omit-frame-pointer`: g++ only turns on `-fomit-frame-pointer` on machines where it does not interfere with debugging, so no need for this one.
 * `-Wuseless-cast`: Warns when casting to the same type. Unfortunately, doesn't work well with MPI, since MPI_COMM_WORLD may be an int and casting it to MPI_Comm is a "useless cast"
+* `-Wsuggest-attribute=[pure|const|noreturn|format|cold|malloc]`: I haven't spent much time with this one, it may be useful.
