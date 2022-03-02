@@ -54,6 +54,7 @@ The summaries are taken from https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.
 * `-Wmissing-include-dirs`: warn if a user-supplied include dir does not exist.
 * `-Wnull-dereference`: warn if paths that dereference a null pointer are detected.
 * `-Woverloaded-virtual`: warn when a function declaration hides virtual functions from a base class
+* `-Wpedantic`: Issue all the warnings demanded by strict ISO C++.
 * `-Wpointer-arith`: warn about `sizeof` for function types or `void`.
 * `-Wshadow`: warn about variable shadowing and global function shadowing.
 * `-Wswitch-enum`: warn when a `switch` on an enum type is missing one of the enums.
