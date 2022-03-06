@@ -22,5 +22,3 @@ Monte-Carlo tree search discovers regions of the design space that have large im
 A sequence-to-vector transformation defines  features for each explored implementation, and each implementation is assigned a class label according to its relative performance.
 A decision tree is trained on the features and labels to produce design rules for each class; these rules can be used by systems experts to guide their implementations.
 We demonstrate our strategy using a key kernel from scientific computing --- sparse-matrix vector multiplication --- on a platform with multiple MPI ranks and GPU streams.  
-
-* [arxiv](https://arxiv.org/abs/2012.14363)
