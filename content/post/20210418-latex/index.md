@@ -89,13 +89,15 @@ The
 
 ## SI units
 
-Use the `siunit` package to automatically format numbers with SI units.
+Use the `siunitx` package to automatically format numbers with SI units.
 (`[binary-units]` may not be necessary depending on your version.)
 
 ```latex
 \usepackage[binary-units]{siunitx}
 \SI{512}{\byte}
 ```
+
+In newer versions of the `siunitx` package, `\SI` may be replaced with `\qty`.
 
 ## Algorithm
 
