@@ -1,7 +1,7 @@
 +++
 title = "Tips for Technical Writing in Latex"
 date = 2021-04-18T00:00:00
-lastmod = 2022-01-05T00:00:00
+lastmod = 2022-03-10T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -97,6 +97,14 @@ Use the `siunit` package to automatically format numbers with SI units.
 \SI{512}{\byte}
 ```
 
+## Algorithm
+
+Algorithm statements are often written in math mode, which treats consecutive letters as the product of variables and can lead to strange kerning.
+You can fix with `\mathit{}`
+
+```latex
+\State $\mathit{word} \gets ...$
+```
 
 ## Digit grouping and separators.
 
