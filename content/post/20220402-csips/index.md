@@ -35,12 +35,41 @@ projects = []
 
 categories = []
 
+
+
+
 # Set captions for image gallery.
 
 
 +++
 
+<!-- style math  -->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          // customised options
+          // • auto-render specific keys, e.g.:
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          // • rendering keys, e.g.:
+          throwOnError : false
+        });
+    });
+</script>
+
 ## Problem Formulation
+
+Inline math: \\(\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…\\)
+
+Block math:
+
+$$
+ \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
+$$
 
 ## Linear Program Relaxation
 
