@@ -1,7 +1,7 @@
 +++
-title = "Implementation of a Basic Integer Linear Programming Solver"
-date = 2022-04-02T00:00:00
-lastmod = 2022-04-02T00:00:00
+title = "Implementation of a Integer Linear Programming Solver in Python"
+date = 2022-04-03T00:00:00
+lastmod = 2022-04-03T00:00:00
 draft = true
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -9,7 +9,7 @@ authors = ["Carl Pearson"]
 
 tags = ["python"]
 
-summary = ""
+summary = "Roll your own integer linear programming (ILP) solver using Scipy."
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -61,13 +61,13 @@ categories = []
     });
 </script>
 
-Inline math: \\(\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…\\)
+## Introduction
 
-Block math:
 
-$$
- \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$
+
+1. Expression trees and rewrite rules to provide a convenient interface.
+2. Linear programming relaxation to get a non-integer solution.
+3. Branch-and-bound to refine the relaxed soltion to an integer solution.
 
 ## Problem Formulation
 
@@ -103,11 +103,166 @@ Just maximize \\(-\mathbf{c}^T\mathbf{x}\\) instead of maximizing \\(\mathbf{c}^
 At first glance, it appears \\(0 \leq \mathbf{x}\\) will be a problem.
 However, we'll just construct \\(A\\) and \\(\mathbf{b}\\) so that all constraints are relative to \\(-\mathbf{x}_i\\) instead of \\(\mathbf{x}_i\\) for variable \\(i\\).
 
+## Example
+
+To specify our problem, we must specify \\(A\\), \\(\mathbf{b}\\), and \\(\mathbf{c}^T\\).
+
+For simple problems it might be convenient enough to do this unassisted, for [example (pdf)](https://faculty.math.illinois.edu/~mlavrov/docs/482-spring-2020/lecture33.pdf):
+
+find \\(x,y\\) to maximize
+$$
+4x + 5y
+$$
+
+subject to 
+
+$$\begin{aligned}
+x + 4y &\leq 10 \cr
+3x - 4y &\leq 6 \cr
+0 &\leq x,y
+\end{aligned}$$
+
+We have two variables \\(x\\) and \\(y\\), so Our \\(\mathbf{x}\\) vector will be two entries, \\(\mathbf{x}_0\\) for \\(x\\) and \\(\mathbf{x}_1\\) for \\(y\\).
+Correspondingly, \\(A\\) will have two columns, one for each variable, and our \\(\mathbf{c}\\) will have two entries, one for each variable.
+We have two constraints, so our \\(A\\) will have two rows, one for each constraint.
+
+```python
+cT = [4, 5]    # maximize 4x + 5y
+A_ub = [
+    [1, 4],    # constraint 1:  x + 4y
+    [3, -4],   # constraint 2: 3x - 4y
+]
+b_ub = [
+  10,          # constraint 1 <= 10
+   6,          # constraint 2 <= 6
+] , 
+```
+How do we handle \\(0 \leq x,y\\)?
+We'll cover that later when we talk about scipy's `linprog` function to actually solve this.
+
+## User-friendly Interface
+
+If your problem is complicated it can get clumsy to specify every constraint and objective in this form, since you'llneed to massage all your constraints so that all the variables are on the left and are \\(\leq\\) a constant on the right.
+It would be best to have the computer do this for you, and present a more natural interface akin to the following:
+
+```python
+m = Model()
+
+x = m.int_1d(2) # 1 dimensional vector of two integer variables
+m.constraint(    x[0] + 4 * x[1] <= 10) # x + 4y <= 10
+m.constraint(3 * x[0] - 4 * x[1] <= 6)  # 3x - 4y <= 6
+m.constraint(x[0] >= 0) # x >= 0
+m.constraint(x[1] >= 0) # y >= 0
+
+c, A_ub, b_ub = m.get_problem() # produce vectors and matrices
+```
+
+To do this, we'll introduce some python classes to represent nodes in an [expression tree](https://en.wikipedia.org/wiki/Binary_expression_tree) of our constraints.
+Then we'll overload the `*`, `+`, `-`, `==`, `<=`, and `>=` operators on those classes to allow those nodes to be composed into a tree from a natural expression.
+
+For example, an implementation of scaling a variable by an integer:
+
+```python
+class ScalExpr:
+    def __init__(self, a, x):
+        assert isinstance(a, int)
+        assert isinstance(x, Var)
+        self.a = a
+        self.x = x
+
+class Var:
+    def __init__(self, ...):
+        ...
+
+    def __rmul__(self, lhs):
+        assert isinstance(lhs, int)
+        return ScalExpr(lhs, self)
+```
+
+Using part of the constraints above:
+```python
+3 * x[0]
+
+# becomes
+x[0].__rmul__(3)
+
+# returns
+ScalExpr(3, x[0])
+```
+
+which represents variable `x[0]` multiplied by integer `3`.
+We can construct more complicated trees to support our expression grammar by extending these classes with additional operations (e.g. `__leq__`, `__sum__`, ...) and additional classes to represent summation expressions, less-or-equal equations, and so forth.
+
+## Conversion to Standard Form
+
+Once each constraint (and the objective) are represented as expression trees, the challenge then becomes converting them into the standard form, e.g. all variables and scalar multiplications on the left-hand side (a row of \\(A\\)), and a single constant on the right-hand side (an entry of \\(\mathbf{b}\\)).
+We can use a few [rewrite](https://en.wikipedia.org/wiki/Rewriting) rules to transform our expression trees into what we want.
+
+Distribution:
+$$
+a \times (b + c) \rightarrow a \times b + a \times c
+$$
+
+```python
+ScalExpr(a, SumExpr([b,c]))               # a * (b+c)
+SumExpr([ScalExpr(a, b), ScalExpr(a, c)]) # a * b + a * c
+```
+
+Fold:
+$$
+a + b \rightarrow c
+$$
+```python
+SumExpr([a, b]) # a + b  (sum of 2 ints)
+SumExpr([a+b])  # c      (sum of a single int) where c = a + b
+```
+
+Move left
+$$
+a \leq b + c \rightarrow a - b \leq c
+$$
+
+Flip:
+$$
+a \geq b \rightarrow -a \leq -b
+$$
+
+By applying these rules, we can convert any of our expressions to one where a sum of scaled variables is on the left hand side of \\(\leq\\), and a single int is on the right hand side.
+Then it's a simple matter of generating an \\(\mathbf{x}\\) with one entry per unique variable, \\(A\\) from the scaling on those variables, and \\(\mathbf{b}\\) from the right-hand side.
+
 ## Linear Program Relaxation
 
-The way this is usually done is actually by initially ignoring the integer constraint ( \\(\mathbf{x} \in \mathbb{Z}\\) ), then going back and "fixing" your non-integer solution.
+The way this is usually done is actually by initially ignoring the integer constraint ( \\(\mathbf{x} \in \mathbb{Z}\\) ), then going back and "fixing" the non-integer parts of your solution.
 When you ignore the integer constraint, you're doing what's called ["linear programming relaxation" (LP relaxation)](https://en.wikipedia.org/wiki/Linear_programming_relaxation).
+Solving the LP relaxation will provide a (possibly non-integer) \\(\mathbf{x}\\).
+
+We'll use [scipy's `linprog` function](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.linprog.html) to solve the LP relaxation.
+
+```python
+from scipy import linprog
+result = linprog(c, A_ub, b_ub, A_eq, b_eq, bounds)
+```
+
+Here's how `linprog`'s arguments map to our formulation
+
+* `c`: this is \\(\mathbf{c}^T\\)
+* `A_ub`: this is \\(A\\)
+* `b_ub`: this is \\(\mathbf{b}\\)
+
+`linprog` also allows us to specify bounds on \\(\mathbf{x}\\) in a convenient form.
+
+* `bounds`: this allows us to provide bounds on \\(\mathbf{x}\\), e.g. providing the tuple `(0, None)` implements \\(0 \leq \mathbf{x}\\).
+This is not strictly necessary since we can directly express this constraint using `A_ub` and `b_ub`.
+
+`linprog` also allows us to specify additional constraints in the form \\(A\mathbf{x} = \mathbf{b}\\). 
+This is not strictly necessary, since for a variable \\(i\\) we could just say \\(\mathbf{x}_i \leq c\\) and \\(-\mathbf{x}_i \leq -c\\) in our original formulation to achieve \\(\mathbf{x}_i = c\\).
+
+* `A_eq`: \\(A\\) in optional \\(A\mathbf{x} = \mathbf{b}\\)
+* `b_eq`: \\(\mathbf{b}\\) in optional \\(A\mathbf{x} = \mathbf{b}\\)
+
+
+linear solution should be x,y = 4,1.5 with f = 23.5
+integer solution should be x,y = 2,2 with f = 18
 
 ## Branch and Bound
 
-## User-friendly Interface
