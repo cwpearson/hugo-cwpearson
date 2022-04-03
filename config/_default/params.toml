@@ -9,10 +9,10 @@ profilePicture = "img/avatar.png"
 # example ["css/custom.css"]
 # added css/syntax.css after hugo gen chromastyles --style=mannai > assets/css/syntax.css
 # added katex css
-customCss = ["css/custom.css", "css/syntax.css", "css/katex.min.css"]
+customCss = ["css/custom.css", "css/syntax.css", "css/katex.css"]
 # example ["js/custom.js"]
 # added katex js
-customJs = ["js/katex.min.js", "js/auto-render.min.js"]
+customJs = ["js/katex.js", "js/auto-render.js"]
 doNotLoadAnimations = true
 images = ["images/site-feature-image.png"]
 mainSections = ["post"]
