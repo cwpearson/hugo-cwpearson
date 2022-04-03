@@ -46,16 +46,17 @@ Presented without comment or endorsement.
 * [The AMD Branch (Mis)predictor: Just Set it and Forget it!][3]
 
 [1]: http://www.cookingforengineers.com/recipe/108/Banana-Nut-Bread/trn
-[1w]: 
+[1w]: https://web.archive.org/web/20220331013307/http://www.cookingforengineers.com/recipe/108/Banana-Nut-Bread/trn
 
 [2]: https://www.lingerandlook.com/Names/You.htm
 [2w]: http://web.archive.org/web/20220403043938/https://www.lingerandlook.com/Names/You.htm
 
 [3]: https://grsecurity.net/amd_branch_mispredictor_just_set_it_and_forget_it
-[3w]:
+[3w]: https://web.archive.org/web/20220222161113/https://grsecurity.net/amd_branch_mispredictor_just_set_it_and_forget_it
 
+[4]: https://mcdreeamiemusings.com/blog/2019/4/13/gsux1h6bnt8lqjd7w2t2mtvfg81uhx
+[4w]: http://web.archive.org/web/20220403044056/https://mcdreeamiemusings.com/blog/2019/4/13/gsux1h6bnt8lqjd7w2t2mtvfg81uhx
 
-[1]: https://mcdreeamiemusings.com/blog/2019/4/13/gsux1h6bnt8lqjd7w2t2mtvfg81uhx
 [1]: http://www.lel.ed.ac.uk/~gpullum/loopsnoop.html
 [1]: https://news.ycombinator.com/item?id=30783391
 [1]: https://planetscale.com/blog/generics-can-make-your-go-code-slower
