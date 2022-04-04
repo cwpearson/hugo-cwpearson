@@ -2,7 +2,7 @@
 title = "Implementation of a Integer Linear Programming Solver in Python"
 date = 2022-04-03T00:00:00
 lastmod = 2022-04-03T00:00:00
-draft = true
+draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Carl Pearson"]
@@ -66,7 +66,7 @@ categories = []
 
 
 1. Expression trees and rewrite rules to provide a convenient interface.
-2. Linear programming relaxation to get a non-integer solution.
+2. Linear programming relaxation to get a non-integer solution (using `scipy.optimize.linprog`).
 3. Branch-and-bound to refine the relaxed soltion to an integer solution.
 
 ## Problem Formulation
@@ -260,9 +260,31 @@ This is not strictly necessary, since for a variable \\(i\\) we could just say \
 * `A_eq`: \\(A\\) in optional \\(A\mathbf{x} = \mathbf{b}\\)
 * `b_eq`: \\(\mathbf{b}\\) in optional \\(A\mathbf{x} = \mathbf{b}\\)
 
-
-linear solution should be x,y = 4,1.5 with f = 23.5
-integer solution should be x,y = 2,2 with f = 18
+`linprog` will dutifully report the optimal solution as \\(x = 4\\), \\(y = 1.5\\), and \\(4x \times 5y = 23.5\\).
+Of course, \\(y = 1.5\\) is not an integer, so we'll use "branch and bound" to refine towards an integer solution.
 
 ## Branch and Bound
+
+[Branch and bound](https://en.wikipedia.org/wiki/Branch_and_bound) is a whole family of algorithms for solving discrete and combinatorial optimization problems.
+It represents the space of solutions in a tree, where the root node is all possible solutions.
+Each node *branches* into two child nodes each which represents two non-overlapping smaller subsets of the full solution space.
+As the tree is descended, the solution space will either shrink to 1 (a feasible solution) or 0 (no feasible solution).
+As we discover feasible solutions, we will keep track of the best one.
+At any point, we may be able to determine a *bound* on the best possible solution offered by a subset.
+If that bound is worse than the best solution so far, we can skip that entire subtree.
+
+For our ILP problem, the algorithm looks like this:
+
+1. Initialize the best objective observed so far to \\(\inf\\)
+2. Find the LP relaxation solution
+3. If the LP relaxation objective is worse than the best solution so far, discard it. The integer solution will be no better than the relaxation solution, so if the relaxation solution is worse, then the integer solution will be too.
+4. Else, push that solution onto a stack
+5. Loop until the stack is empty
+    1. Take solution off the stack
+    2. If all \\(\mathbf{x}\\) entries are integers and the objective is the best so far, record it
+    3. Else, branch to produce two child nodes. If \\(\mathbf{x}_i = c\\) is non-integer, two subproblems, each with one additional constraint \\(\mathbf{x}_i \leq \lfloor c \rfloor \\) and \\(\mathbf{x}_i \geq \lceil c \rceil \\)
+6. Report the solution with the best result so far.
+
+Doing so for our example will converge on a solution of \\(x = 2\\), \\(y = 2\\), and \\(4x \times 5y = 18\\).
+
 
