@@ -1,7 +1,7 @@
 +++
 title = "Implementation of a Integer Linear Programming Solver in Python"
-date = 2022-04-03T00:00:00
-lastmod = 2022-04-03T00:00:00
+date = 2022-04-05T00:00:00
+lastmod = 2022-04-05T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -63,7 +63,9 @@ categories = []
 
 ## Introduction
 
-
+Integer linear programming problems are common in many domains.
+I recently found myself experimenting with formulating a probem as an integer programming problem, and I realized that I didn't really understand how the various solvers worked, so I set out to implement my own.
+This post is about the three pieces that need to be assembled to create one:
 
 1. Expression trees and rewrite rules to provide a convenient interface.
 2. Linear programming relaxation to get a non-integer solution (using `scipy.optimize.linprog`).
@@ -287,4 +289,6 @@ For our ILP problem, the algorithm looks like this:
 
 Doing so for our example will converge on a solution of \\(x = 2\\), \\(y = 2\\), and \\(4x \times 5y = 18\\).
 
-
+In 5.3, there are different ways to choose which non-integer variable to branch on.
+CSIPS branches on the first one.
+There are also better methods, such as branch-and-cut or branch-and-price, which I might investigate in the future.
