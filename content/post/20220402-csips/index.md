@@ -71,6 +71,8 @@ This post is about the three pieces that need to be assembled to create one:
 2. Linear programming relaxation to get a non-integer solution (using `scipy.optimize.linprog`).
 3. Branch-and-bound to refine the relaxed soltion to an integer solution.
 
+You can follow along at [cwpearson/csips][https://github.com/cwpearson/csips]
+
 ## Problem Formulation
 
 A [linear programming problem](https://en.wikipedia.org/wiki/Linear_programming) is an optimization problem with the following form:
@@ -144,6 +146,8 @@ We'll cover that later when we talk about scipy's `linprog` function to actually
 
 ## User-friendly Interface
 
+* Implemented in [expr.py](https://github.com/cwpearson/csips/blob/master/csips/expr.py)
+
 If your problem is complicated it can get clumsy to specify every constraint and objective in this form, since you'llneed to massage all your constraints so that all the variables are on the left and are \\(\leq\\) a constant on the right.
 It would be best to have the computer do this for you, and present a more natural interface akin to the following:
 
@@ -197,6 +201,8 @@ We can construct more complicated trees to support our expression grammar by ext
 
 ## Conversion to Standard Form
 
+* Implemented at [csips.py](https://github.com/cwpearson/csips/blob/1f05f5377d0afa367e019a41ef1f11e4c54ad321/csips/csips.py#L109-L191)
+
 Once each constraint (and the objective) are represented as expression trees, the challenge then becomes converting them into the standard form, e.g. all variables and scalar multiplications on the left-hand side (a row of \\(A\\)), and a single constant on the right-hand side (an entry of \\(\mathbf{b}\\)).
 We can use a few [rewrite](https://en.wikipedia.org/wiki/Rewriting) rules to transform our expression trees into what we want.
 
@@ -234,6 +240,8 @@ Then it's a simple matter of generating an \\(\mathbf{x}\\) with one entry per u
 
 ## Linear Program Relaxation
 
+* Implemented at [csips.py](https://github.com/cwpearson/csips/blob/1f05f5377d0afa367e019a41ef1f11e4c54ad321/csips/csips.py#L304-L318)
+
 The way this is usually done is actually by initially ignoring the integer constraint ( \\(\mathbf{x} \in \mathbb{Z}\\) ), then going back and "fixing" the non-integer parts of your solution.
 When you ignore the integer constraint, you're doing what's called ["linear programming relaxation" (LP relaxation)](https://en.wikipedia.org/wiki/Linear_programming_relaxation).
 Solving the LP relaxation will provide a (possibly non-integer) \\(\mathbf{x}\\).
@@ -267,6 +275,8 @@ Of course, \\(y = 1.5\\) is not an integer, so we'll use "branch and bound" to r
 
 ## Branch and Bound
 
+* Implemented at [csips.py](https://github.com/cwpearson/csips/blob/1f05f5377d0afa367e019a41ef1f11e4c54ad321/csips/csips.py#L325-L389)
+
 [Branch and bound](https://en.wikipedia.org/wiki/Branch_and_bound) is a whole family of algorithms for solving discrete and combinatorial optimization problems.
 It represents the space of solutions in a tree, where the root node is all possible solutions.
 Each node *branches* into two child nodes each which represents two non-overlapping smaller subsets of the full solution space.
@@ -289,6 +299,8 @@ For our ILP problem, the algorithm looks like this:
 
 Doing so for our example will converge on a solution of \\(x = 2\\), \\(y = 2\\), and \\(4x \times 5y = 18\\).
 
-In 5.3, there are different ways to choose which non-integer variable to branch on.
-CSIPS branches on the first one.
-There are also better methods, such as branch-and-cut or branch-and-price, which I might investigate in the future.
+In 5.3, there are [different ways](https://en.wikipedia.org/wiki/Branch_and_cut#Branching_strategies) to choose which non-integer variable to branch on.
+CSIPS branches on the [first one](https://github.com/cwpearson/csips/blob/1f05f5377d0afa367e019a41ef1f11e4c54ad321/csips/branch.py#L13-L39) or the [most infeasible](https://github.com/cwpearson/csips/blob/1f05f5377d0afa367e019a41ef1f11e4c54ad321/csips/branch.py#L42-L72).
+
+There are more sophisticated methods for solving the integer problem, such as branch-and-cut or branch-and-price.
+Unfortunately, these are difficult to investigate using scipy's linprog, as none of its solver methods make the tableau form accessible.
