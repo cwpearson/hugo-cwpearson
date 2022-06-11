@@ -56,7 +56,7 @@ United States 20140122579
 
 
 #### Critical path analysis of activity trace files.
-United States Patent Application No. 16/751,317.
-*Jan 24, 2020*
+United States Patent 11327973
+*May 10, 2022*
 
 Chung, I-Hsin, JinJun Xiong, and Carl Pearson.
