@@ -40,9 +40,13 @@ categories = []
 
 +++
 
-I prefer to browse twitter with the following search string:
+I'm not much of a Tiwtter afficionado, which is probably why I prefer to use the following search string:
 
 ```
 filter:follows -filter:replies -filter:"RT @" 
 ```
+
+This shows only people you follow, no replies, and no retweets from people you follow.
+
+[Here](https://twitter.com/search?q=filter%3Afollows%20-filter%3Areplies%20-filter%3A%22RT%20%40%22) is a direct link to Twitter with that search query.
 
