@@ -1,7 +1,7 @@
 +++
 title = "Setting up Python with Pyenv and Poetry on Debian"
 date = 2021-08-22T00:00:00
-lastmod = 2021-11-30T00:00:00
+lastmod = 2022-06-23T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -44,7 +44,7 @@ Setting up a python development environment is annoying.
 We'd especially like to avoid:
 
 * Using the system python: it may be way out of date, have special modifications, or be required for the system to function (and therefore we should avoid messing with it).
-* Installing packages globally: different projects may require different versions, and the system may have it's own package requirements that conflict with ours.
+* Installing packages globally: different projects may require different versions, and the system may have its own package requirements that conflict with ours.
 
 The solution has two components:
 1. install and use whatever version of python you like
