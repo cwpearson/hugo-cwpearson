@@ -40,7 +40,7 @@ categories = []
 
 +++
 
-I'm not much of a Tiwtter afficionado, which is probably why I prefer to use the following search string:
+I'm not much of a Twitter afficionado, which is probably why I prefer to use the following search string:
 
 ```
 filter:follows -filter:replies -filter:"RT @" 
