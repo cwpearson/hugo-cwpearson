@@ -44,7 +44,7 @@ Here are some interesting things I read this month.
 Presented without comment or endorsement.
 
 * [Compound pejoratives on Reddit – from buttface to wankpuffin][1] ([archive][1w])
-* [What caused the 2020 Hoicide Spike?][2] ([archive][2w])
+* [What caused the 2020 Homicide Spike?][2] ([archive][2w])
 * [How Do Individual Contributors Get Stuck? A Primer ][3] ([archive][3w])
 * [Lethal Partisanship][4] ([archive][4w])
 * [The Copenhagen Interpretation of Ethics][5] ([archive][5w])
