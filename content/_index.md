@@ -1,6 +1,6 @@
-Carl Pearson is a Postdoctoral Appointee at Sandia National Labs and a Research Assistant Professor (LAT) of Computer Science at University of New Mexico.
-He works on GPU communication for distributed linear algebra, and GPU acceleration of sparse matrix multiplication.
+Carl Pearson is a LTE in the Scalable Algorithms group at Sandia National Labs and a Research Assistant Professor (LAT) of Computer Science at University of New Mexico.
+He works on future architectures for scientific computing, GPU communication for distributed linear algebra, and GPU acceleration of irregular operations.
 
-He recieved his Ph.D in Electrical and Computer Engineering from the University of Illinois in 2021, and his B.S. in Engineering from Harvey Mudd College.
+He received his Ph.D in Electrical and Computer Engineering from the University of Illinois, and his B.S. in Engineering from Harvey Mudd College.
 
 ---
