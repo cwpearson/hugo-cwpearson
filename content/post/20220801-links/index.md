@@ -2,7 +2,7 @@
 title = "Interesting Links from July"
 date = 2022-08-01T00:00:00
 lastmod = 2022-07-29T00:00:00
-draft = false
+draft = true
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Carl Pearson"]
