@@ -44,9 +44,16 @@ See the [Github repository](https://github.com/cwpearson/nvidia-performance-tool
 
 ## Industry
 
+#### LTE (01465), Sandia National Laboratories
+* Albuquerque, NM
+* Auguest 2022 - present
+* Novel computer systems evaluation
+* Multi-GPU Communication
+* Accelerator kernel performance
+
 #### Postdoctoral Appointee (01465), Sandia National Laboratories
 * Albuquerque, NM
-* March 2021 - present
+* March 2021 - August 2022
 * Multi-GPU Communication
 * Sparse Matrix Operations
 
