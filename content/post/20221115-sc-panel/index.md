@@ -1,7 +1,7 @@
 +++
 title = "Composable Systems Opportunities and Challenges"
 date = 2022-11-15T00:00:00
-lastmod = 2022-11-15T00:00:00
+lastmod = 2022-11-16T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -43,4 +43,4 @@ categories = []
 I'm a panelist on the "Composable Systems Opportunities and Challenges" panel at SC'22, with my colleagues Christian Pinto and Kaotar El Maghraoui from IBM Research, the CEO and founder of H3 systems Brian Pan and my Ph.D advisor Wen-Mei Hwu of Nivida.
 The panel is moderated by I-Hsin Chung of IBM research.
 
-The panel is in D147 at the Kay Bailey Hutchinson Convention Center at 10:30am.
+The panel is in C147 at the Kay Bailey Hutchinson Convention Center at 10:30am.

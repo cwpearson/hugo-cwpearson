@@ -4,7 +4,7 @@ date: "2022-11-15T00:00:00Z"
 tags: []
 ---
 
-*Nov 15th, 10:30 AM, D147: Composable Computing Opportunities and Challenges*
+*Nov 15th, 10:30 AM, C147: Composable Computing Opportunities and Challenges*
 
 Invited panelist to Supercomputing 2022
 
