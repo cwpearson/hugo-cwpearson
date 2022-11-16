@@ -23,7 +23,7 @@ projects = []
 # To use, add an image named `featured.jpg/png` to your project's folder. 
 [image]
   # Caption (optional)
-  caption = ""
+  caption = "From left to right: Wen-Mei Hwu (Nvidia), me, Christian Pinto (IBM), Brian Pan (H3 Platform), I-Hsin Chung (IBM) Kaoutar El Maghraoui (IBM)"
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
