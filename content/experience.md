@@ -6,6 +6,12 @@ aliases = []
 author = "Carl Pearson"
 +++
 
+## Community
+
+- ISC'23 workshop commitee member
+- IPDPS'23 AsHES Workshop program committee member
+- SC'22 ExaMPI Workshop program committee member
+
 ## Academia
 
 - 2018 Spring University of Illinois Project TA for ECE408/CS483
