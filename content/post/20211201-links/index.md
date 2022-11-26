@@ -1,6 +1,6 @@
 +++
 title = "Interesting Links"
-date = 2021-11-30T00:00:00
+date = 2022-11-25T00:00:00
 lastmod = 2022-11-26T00:00:00
 draft = false
 
@@ -42,6 +42,186 @@ categories = []
 
 Here are some interesting things I've read.
 Presented without comment or endorsement.
+
+## November 2022
+
+* https://www.rfc-editor.org/rfc/rfc1855
+
+## October 2022
+
+* https://slatestarcodex.com/2013/07/17/who-by-very-slow-decay/
+* https://edith.reisen/computers/security/forum_shills.html
+* https://bitbashing.io/comparing-floats.html
+* https://dood.al/pinktrombone/
+
+## September 2022
+
+* https://slimemoldtimemold.com/2021/07/07/a-chemical-hunger-part-i-mysteries/
+* https://www.ralfj.de/blog/2018/07/24/pointers-and-bytes.html
+* https://www.pathsensitive.com/2022/09/bet-you-cant-solve-these-9-dependency.html?m=1
+
+## August 2022
+
+* https://erikhoel.substack.com/p/from-ai-to-abortion-the-scientific?utm_source=substack&utm_medium=email
+* https://thephd.dev/c23-is-coming-here-is-what-is-on-the-menu
+* https://cyclingtips.com/2022/07/interview-silca-on-amazon-e-commerce-fraud-theft-returns/
+* https://github.com/elonlit/Genesis
+* https://tech.davis-hansson.com/p/make/
+* https://www.gawker.com/culture/failure-to-cope-under-capitalism?utm_source=substack&utm_medium=email
+* https://suricrasia.online/iceberg/
+* https://stratechery.com/2022/rights-laws-and-google/
+* https://neverworkintheory.org/2022/08/30/software-engineering-research-questions.html
+
+## July 2022
+
+* [Alpha (A translation of Genesis 1)](http://llamasandmystegosaurus.blogspot.com/2017/05/alpha.html) ([archive](https://web.archive.org/web/20220727191251/http://llamasandmystegosaurus.blogspot.com/2017/05/alpha.html))
+* [Compound pejoratives on Reddit – from buttface to wankpuffin](https://unstableontology.com/2022/05/02/on-the-paradox-of-tolerance-in-relation-to-fascism-and-online-content-moderation) ([archive](http://web.archive.org/web/20220702144909/https://unstableontology.com/2022/05/02/on-the-paradox-of-tolerance-in-relation-to-fascism-and-online-content-moderation))
+* [Mid-Atlantic Accent](https://en.m.wikipedia.org/wiki/Mid-Atlantic_accent) ([archive](http://web.archive.org/web/20220714175919/http://en.m.wikipedia.org/wiki/Mid-Atlantic_accent))
+* [Yahoo admits mangling email](http://news.bbc.co.uk/2/hi/science/nature/2138014.stm) ([archive](http://web.archive.org/web/20220721011454/http://news.bbc.co.uk/2/hi/science/nature/2138014.stm))
+* [hemanth/functional-programming-jargon](https://github.com/hemanth/functional-programming-jargon) ([archive](http://web.archive.org/web/20220729163246/https://github.com/hemanth/functional-programming-jargon))
+* [The Preprocessor Iceberg Meme](https://jadlevesque.github.io/PPMP-Iceberg/) ([archive](http://web.archive.org/web/20220717103317/https://jadlevesque.github.io/PPMP-Iceberg/))
+* [Wikipedia:Long-term Abuse](https://en.wikipedia.org/wiki/Wikipedia:Long-term_abuse) ([archive](http://web.archive.org/web/20220727173524/https://en.wikipedia.org/wiki/Wikipedia:Long-term_abuse))
+* [Lena (MMAcevedo)](https://qntm.org/mmacevedo) ([archive](http://web.archive.org/web/20220727095612/https://qntm.org/mmacevedo))
+* [How I Feel about Logarithms](https://youtu.be/N-7tcTIrers
+)
+* [Suspend Your Disbelief (or, how to ruin everything in 7 steps)](https://youtu.be/deg1wmYjwtk)
+* [emojisupply.kitchen](https://emoji.supply/kitchen/)
+
+## June 2022
+
+* [Compound pejoratives on Reddit – from buttface to wankpuffin][1] ([archive][1w])
+* [What caused the 2020 Homicide Spike?][2] ([archive][2w])
+* [How Do Individual Contributors Get Stuck? A Primer ][3] ([archive][3w])
+* [Lethal Partisanship][4] ([archive][4w])
+* [The Copenhagen Interpretation of Ethics](https://blog.jaibot.com/the-copenhagen-interpretation-of-ethics/) ([archive](https://web.archive.org/web/20220618225755/https://blog.jaibot.com/the-copenhagen-interpretation-of-ethics/))
+* [Rewriting the Technical Interview](https://aphyr.com/posts/353-rewriting-the-technical-interview) ([archive](https://web.archive.org/web/20220615123956/https://aphyr.com/posts/353-rewriting-the-technical-interview))
+* [Why the government breeds and releases billions of flies a year](https://www.nationalgeographic.com/animals/article/north-american-screwworm-barrier) ([archive](https://web.archive.org/web/20220621044438/https://www.nationalgeographic.com/animals/article/north-american-screwworm-barrier))
+
+[1]: http://colinmorris.github.io/blog/compound-curse-words
+[1w]: https://web.archive.org/web/20220701220815/http://colinmorris.github.io/blog/compound-curse-words
+
+[2]: https://astralcodexten.substack.com/p/what-caused-the-2020-homicide-spike
+[2w]: https://web.archive.org/web/20220703093234/https://astralcodexten.substack.com/p/what-caused-the-2020-homicide-spike
+
+[3]: https://www.elidedbranches.com/2017/01/how-do-individual-contributors-get.html
+[3w]: https://web.archive.org/web/20220703111528/https://www.elidedbranches.com/2017/01/how-do-individual-contributors-get.html
+
+[4]: https://www.dannyhayes.org/uploads/6/9/8/5/69858539/kalmoe___mason_ncapsa_2019_-_lethal_partisanship_-_final_lmedit.pdf
+
+## May 2022
+
+* [Preventing the Collapse of Civilization / Jonathan Blow (Thekla, Inc)][1]
+* [The World Order Reset][2] ([archive][2w])
+* [How to Write a Spelling Corrector][3] ([archive][3w])
+* [Never Trust a Number][4] ([archive][4w])
+* [Walkthrough of UHC’s Claim Reimbursement Form Game][5] ([archive][5w])
+* [Collections: When is a Tank not a Tank?][6] ([archive][6w])
+* [Down the Golang nil Rabbit Hole][7] ([archive][7w])
+* [First-Hand:No Damned Computer is Going to Tell Me What to DO - The Story of the Naval Tactical Data System, NTDS][8] ([archive][8w])
+* [Static Integer Types][9] ([archive][9w])
+* [Privacy Tools List by CKTN][10] ([archive][10w])
+* [Programming Sucks][11] ([archive][11w])
+* [My Students Cheated...A lot][12] ([archive][12w])
+
+[1]: https://youtu.be/ZSRHeXYDLko
+
+[2]: https://theupheaval.substack.com/p/the-world-order-reset
+[2w]: https://web.archive.org/web/20220531065327/https://theupheaval.substack.com/p/the-world-order-reset
+
+[3]: https://norvig.com/spell-correct.html
+[3w]: https://web.archive.org/web/20220608042304/http://www.norvig.com/spell-correct.html
+
+[4]: https://climateer.substack.com/p/numbers
+[4w]: https://web.archive.org/web/20220513002323/https://climateer.substack.com/p/numbers?s=r
+
+[5]: https://github.com/MyUHCAdventure/MyUHCAdventure.github.io
+[5w]: https://web.archive.org/web/20220606220414/https://github.com/MyUHCAdventure/MyUHCAdventure.github.io
+
+[6]: https://acoup.blog/2022/05/06/collections-when-is-a-tank-not-a-tank/
+[6w]: https://web.archive.org/web/20220607064407/https://acoup.blog/2022/05/06/collections-when-is-a-tank-not-a-tank/
+
+[7]: https://blog.urth.org/2021/03/27/down-the-golang-nil-rabbit-hole/
+[7w]: https://web.archive.org/web/20220223131327/https://blog.urth.org/2021/03/27/down-the-golang-nil-rabbit-hole/
+
+[8]: https://ethw.org/First-Hand:No_Damned_Computer_is_Going_to_Tell_Me_What_to_DO_-_The_Story_of_the_Naval_Tactical_Data_System,_NTDS
+[8w]: https://web.archive.org/web/20220521031203/https://ethw.org/First-Hand:No_Damned_Computer_is_Going_to_Tell_Me_What_to_DO_-_The_Story_of_the_Naval_Tactical_Data_System,_NTDS
+
+[9]: https://tratt.net/laurie/essays/entries/static_integer_types.html
+[9w]: https://web.archive.org/web/20220531061546/https://tratt.net/laurie/essays/entries/static_integer_types.html
+
+[10]: https://gitlab.com/ck-s-technology-news/privacy-tools-list-by-cktn
+[10w]: https://web.archive.org/web/20220602084027/https://gitlab.com/ck-s-technology-news/privacy-tools-list-by-cktn
+
+[11]: https://www.stilldrinking.org/programming-sucks
+[11w]: https://web.archive.org/web/20220526024022/http://www.stilldrinking.org/programming-sucks
+
+[12]: https://crumplab.com/articles/blog/post_994_5_26_22_cheating/index.html
+[12w]: https://web.archive.org/web/20220610082353/https://crumplab.com/articles/blog/post_994_5_26_22_cheating/index.html
+
+## April 2022
+
+* [A Solar-Powered Website][1]
+* [nickcammarata with Dall-E examples][2] ([archive][2w])
+* [Self-Actualization is no the Sole Purpose of Human Existence][3] ([archive][3w])
+* [Obscure Pregnancy Interventions: Much More Than You Wanted To Know][4] ([archive][4w])
+* [How to spot great remote jobs: The Joel test for remote work][5] ([archive][5w])
+* [The Best Engineering Interview Question I've Ever Gotten: Part 2][6] ([archive][6w])
+* [Workmode: Great Places to Work From][7]
+* [Chris Lattner on Garbage Collection vs. ARC][8] ([archive][8w])
+* [How to Write a Git Commit Message][9] ([archive][9w])
+* [103 Bits of Advice I Wish I Had Known][10] ([archive][10w])
+
+[1]: https://witch.solar/
+
+[2]: https://twitter.com/nickcammarata/status/1511861061988892675?s=21&t=8aSpwebIGVPb0LkksGkgXA
+[2w]: https://web.archive.org/web/20220506030145/https://twitter.com/nickcammarata/status/1511861061988892675?s=21&t=8aSpwebIGVPb0LkksGkgXA
+
+[3]: https://freddiedeboer.substack.com/p/self-actualization-is-not-the-sole
+[3w]: https://web.archive.org/web/20220506030309/https://freddiedeboer.substack.com/p/self-actualization-is-not-the-sole
+
+[4]: https://astralcodexten.substack.com/p/obscure-pregnancy-interventions-much
+[4w]: https://web.archive.org/web/20220506014012/https://astralcodexten.substack.com/p/obscure-pregnancy-interventions-much
+
+[5]: https://andreschweighofer.com/career/how-to-spot-great-remote-jobs-the-joel-test-for-remote-work/
+[5w]: https://web.archive.org/web/20220506025759/https://andreschweighofer.com/career/how-to-spot-great-remote-jobs-the-joel-test-for-remote-work/
+
+[6]: https://quuxplusone.github.io/blog/2022/01/07/memcached-interview-solution/
+[6w]: https://web.archive.org/web/20220424023538/https://quuxplusone.github.io/blog/2022/01/07/memcached-interview-solution/
+
+[7]: https://workmode.co/
+
+[8]: https://atp.fm/205-chris-lattner-interview-transcript#gc
+[8w]: https://web.archive.org/web/20211101114918/https://atp.fm/205-chris-lattner-interview-transcript
+
+[9]: https://cbea.ms/git-commit/
+[9w]: https://web.archive.org/web/20211219182849/https://cbea.ms/git-commit/
+
+[10]: https://kk.org/thetechnium/103-bits-of-advice-i-wish-i-had-known/
+[10w]: https://web.archive.org/web/20220506010031/https://kk.org/thetechnium/103-bits-of-advice-i-wish-i-had-known/
+
+## March 2022
+
+
+* [Banana Nut Bread](http://www.cookingforengineers.com/recipe/108/Banana-Nut-Bread/trn) ([archive](https://web.archive.org/web/20220331013307/http://www.cookingforengineers.com/recipe/108/Banana-Nut-Bread/trn))
+* [You are not your Name](https://www.lingerandlook.com/Names/You.htm) ([archive](http://web.archive.org/web/20220403043938/https://www.lingerandlook.com/Names/You.htm))
+* [The AMD Branch (Mis)predictor: Just Set it and Forget it!](https://grsecurity.net/amd_branch_mispredictor_just_set_it_and_forget_it) ([archive](https://web.archive.org/web/20220222161113/https://grsecurity.net/amd_branch_mispredictor_just_set_it_and_forget_it))
+* [Death by PowerPoint: the slide that killed seven people](https://mcdreeamiemusings.com/blog/2019/4/13/gsux1h6bnt8lqjd7w2t2mtvfg81uhx) ([archive](http://web.archive.org/web/20220403044056/https://mcdreeamiemusings.com/blog/2019/4/13/gsux1h6bnt8lqjd7w2t2mtvfg81uhx))
+* [Scooping the Loop Snooper: A Proof that the Halting Problem is Undecideable](http://www.lel.ed.ac.uk/~gpullum/loopsnoop.html) ([archive](https://web.archive.org/web/20220422071252/http://www.lel.ed.ac.uk/~gpullum/loopsnoop.html))
+* [dbrereton lists non-Google search engines](https://news.ycombinator.com/item?id=30783391) ([archive](https://web.archive.org/web/20220506024813/https://news.ycombinator.com/item?id=30783391))
+* [Generics can Make your Go Code Slower](https://planetscale.com/blog/generics-can-make-your-go-code-slower) ([archive](https://web.archive.org/web/20220506024826/https://planetscale.com/blog/generics-can-make-your-go-code-slower))
+* [The Uselessness of Phenylephrine](https://www.science.org/content/blog-post/uselessness-phenylephrine) ([archive](https://web.archive.org/web/20220506024857/https://www.science.org/content/blog-post/uselessness-phenylephrine))
+* [Some examples of people quickly accomplishing ambitious things together](https://patrickcollison.com/fast)
+
+## February 2022
+
+* [Letter to the US Senate Judiciary Committee on App Stores](https://www.schneier.com/essays/archives/2022/01/letter-to-the-us-senate-judiciary-committee-on-app-stores.html), ([archive](http://web.archive.org/web/20220305142704/https://www.schneier.com/essays/archives/2022/01/letter-to-the-us-senate-judiciary-committee-on-app-stores.html))
+* [Words Known Better by Males than Females, and Vice Versa](https://observablehq.com/@yurivish/words) ([archive](http://web.archive.org/web/20220305143236/https://observablehq.com/@yurivish/words))
+* [How to Drop Out](https://ranprieur.com/essays/dropout.html) ([archive](http://web.archive.org/web/20220224104041/https://ranprieur.com/essays/dropout.html))
+* [dylanaraps/pure-bash-bible ](https://github.com/dylanaraps/pure-bash-bible) ([archive](http://web.archive.org/web/20220305143706/https://github.com/dylanaraps/pure-bash-bible))
+* [Line Goes Up – The Problem With NFTs](https://youtu.be/YQ_xWvX1n9g)
+* [My favorite essays of life advice](https://www.benkuhn.net/weeklyessays/) ([archive](http://web.archive.org/web/20220305143856/https://www.benkuhn.net/weeklyessays/))
+* [programming time](https://punkjazz.org/programming-time/) ([archive](http://web.archive.org/web/20220305143947/https://punkjazz.org/programming-time/))
+* [Rewriting the Technical Interview](https://aphyr.com/posts/353-rewriting-the-technical-interview) ([archive](http://web.archive.org/web/20220305144038/https://aphyr.com/posts/353-rewriting-the-technical-interview))
 
 ## January 2022
 
