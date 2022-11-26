@@ -43,9 +43,7 @@ categories = []
 Here are some interesting things I've read.
 Presented without comment or endorsement.
 
-<!-- * [A Chemical Hunger – Interlude A: CICO Killer, Qu’est-Ce Que C’est?](https://slimemoldtimemold.com/2021/07/15/a-chemical-hunger-interlude-a-cico-killer-quest-ce-que-cest/)
-* [A Chemical Hunger – Part IV: Criteria](https://slimemoldtimemold.com/2021/07/17/a-chemical-hunger-part-iv-criteria/)
-* [A Chemical Hunger – Part V: Livestock Antibiotics](https://slimemoldtimemold.com/2021/07/20/a-chemical-hunger-part-v-livestock-antibiotics/)
+<!-- 
 * [A Chemical Hunger – Interlude B: The Nutrient Sludge Diet](https://slimemoldtimemold.com/2021/07/23/a-chemical-hunger-interlude-b-the-nutrient-sludge-diet/)
 * [A Chemical Hunger – Part VI: PFAS](https://slimemoldtimemold.com/2021/07/26/a-chemical-hunger-part-vi-pfas/)
 * [A Chemical Hunger – Part VII: Lithium](https://slimemoldtimemold.com/2021/08/02/a-chemical-hunger-part-vii-lithium/)
@@ -64,6 +62,9 @@ Presented without comment or endorsement.
 
 * [RFC 1855: Netiquette Guidelines](https://www.rfc-editor.org/rfc/rfc1855) ([archive](https://web.archive.org/web/20221118154752/https://www.rfc-editor.org/rfc/rfc1855))
 * [A Chemical Hunger - Part III: Environmental Contaminants](https://slimemoldtimemold.com/2021/07/13/a-chemical-hunger-part-iii-environmental-contaminants/) ([archive](https://web.archive.org/web/20221021132955/https://slimemoldtimemold.com/2021/07/13/a-chemical-hunger-part-iii-environmental-contaminants/))
+* [A Chemical Hunger – Interlude A: CICO Killer, Qu’est-Ce Que C’est?](https://slimemoldtimemold.com/2021/07/15/a-chemical-hunger-interlude-a-cico-killer-quest-ce-que-cest/) ([archive](https://web.archive.org/web/20220807170423/https://slimemoldtimemold.com/2021/07/15/a-chemical-hunger-interlude-a-cico-killer-quest-ce-que-cest/))
+* [A Chemical Hunger – Part IV: Criteria](https://slimemoldtimemold.com/2021/07/17/a-chemical-hunger-part-iv-criteria/) ([archive](https://web.archive.org/web/20220804200640/https://slimemoldtimemold.com/2021/07/17/a-chemical-hunger-part-iv-criteria/))
+* [A Chemical Hunger – Part V: Livestock Antibiotics](https://slimemoldtimemold.com/2021/07/20/a-chemical-hunger-part-v-livestock-antibiotics/) ([archive](https://web.archive.org/web/20220708013951/https://slimemoldtimemold.com/2021/07/20/a-chemical-hunger-part-v-livestock-antibiotics/))
 
 ## October 2022
 
