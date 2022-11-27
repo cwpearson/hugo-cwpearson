@@ -1,7 +1,7 @@
 +++
 title = "Interesting Links"
-date = 2022-11-25T00:00:00
-lastmod = 2022-11-26T00:00:00
+date = 2022-11-26T00:00:00
+lastmod = 2022-11-27T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -44,9 +44,9 @@ Here are some interesting things I've read.
 Presented without comment or endorsement.
 
 <!-- 
-* [A Chemical Hunger – Interlude B: The Nutrient Sludge Diet](https://slimemoldtimemold.com/2021/07/23/a-chemical-hunger-interlude-b-the-nutrient-sludge-diet/)
-* [A Chemical Hunger – Part VI: PFAS](https://slimemoldtimemold.com/2021/07/26/a-chemical-hunger-part-vi-pfas/)
-* [A Chemical Hunger – Part VII: Lithium](https://slimemoldtimemold.com/2021/08/02/a-chemical-hunger-part-vii-lithium/)
+
+
+
 * [A Chemical Hunger – Interlude C: Highlights from the Reddit Comments](https://slimemoldtimemold.com/2021/08/05/a-chemical-hunger-interlude-c-highlights-from-the-reddit-comments/)
 * [A Chemical Hunger – Interlude D: Glyphosate (AKA the active ingredient in Roundup)](https://slimemoldtimemold.com/2021/08/10/a-chemical-hunger-interlude-d-glyphosate-aka-the-active-ingredient-in-roundup/)
 * [A Chemical Hunger – Interlude E: Bad Seeds](https://slimemoldtimemold.com/2021/08/18/a-chemical-hunger-interlude-e-bad-seeds/)
@@ -65,6 +65,9 @@ Presented without comment or endorsement.
 * [A Chemical Hunger – Interlude A: CICO Killer, Qu’est-Ce Que C’est?](https://slimemoldtimemold.com/2021/07/15/a-chemical-hunger-interlude-a-cico-killer-quest-ce-que-cest/) ([archive](https://web.archive.org/web/20220807170423/https://slimemoldtimemold.com/2021/07/15/a-chemical-hunger-interlude-a-cico-killer-quest-ce-que-cest/))
 * [A Chemical Hunger – Part IV: Criteria](https://slimemoldtimemold.com/2021/07/17/a-chemical-hunger-part-iv-criteria/) ([archive](https://web.archive.org/web/20220804200640/https://slimemoldtimemold.com/2021/07/17/a-chemical-hunger-part-iv-criteria/))
 * [A Chemical Hunger – Part V: Livestock Antibiotics](https://slimemoldtimemold.com/2021/07/20/a-chemical-hunger-part-v-livestock-antibiotics/) ([archive](https://web.archive.org/web/20220708013951/https://slimemoldtimemold.com/2021/07/20/a-chemical-hunger-part-v-livestock-antibiotics/))
+* [A Chemical Hunger – Interlude B: The Nutrient Sludge Diet](https://slimemoldtimemold.com/2021/07/23/a-chemical-hunger-interlude-b-the-nutrient-sludge-diet/) ([archive](https://web.archive.org/web/20220708013953/https://slimemoldtimemold.com/2021/07/23/a-chemical-hunger-interlude-b-the-nutrient-sludge-diet/))
+* [A Chemical Hunger – Part VI: PFAS](https://slimemoldtimemold.com/2021/07/26/a-chemical-hunger-part-vi-pfas/) ([archive](https://web.archive.org/web/20220708013958/https://slimemoldtimemold.com/2021/07/26/a-chemical-hunger-part-vi-pfas/))
+* [A Chemical Hunger – Part VII: Lithium](https://slimemoldtimemold.com/2021/08/02/a-chemical-hunger-part-vii-lithium/) ([archive](https://web.archive.org/web/20221124171209/https://slimemoldtimemold.com/2021/08/02/a-chemical-hunger-part-vii-lithium/))
 
 ## October 2022
 
