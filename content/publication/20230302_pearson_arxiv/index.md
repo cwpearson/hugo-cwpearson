@@ -1,6 +1,6 @@
 +++
 title = "[arXiv] Interconnect Bandwidth Heterogeneity on AMD MI250x and Infinity Fabric"
-date = 2022-02-28T00:00:00  # Schedule page publish date.
+date = 2023-02-28T00:00:00  # Schedule page publish date.
 draft = false
 
 math = false
