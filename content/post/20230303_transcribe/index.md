@@ -146,7 +146,7 @@ Finally, I use [Pandoc](https://github.com/jgm/pandoc) to convert that markdown 
 
 How do I decide whether a frame is "too similar" to a previous frame?
 I experimented with a few options and settled on the `dhash` function in `imagehash`.
-A description of dhash is provided [here](https://www.hackerfactor.com/blog/index.php?/archives/529-Kind-of-Like-That.html).
+A description of dhash is provided [here](https://web.archive.org/web/20230301000000*/https://www.hackerfactor.com/blog/index.php?/archives/529-Kind-of-Like-That.html).
 
 In short, the difference hash works like this:
 * Image is reduced to 9x8 (72 pixels) and grayscale.
