@@ -1,7 +1,7 @@
 +++
-title = "Transcribing Videos with OpenAI's Whisper and ChatGPT (and yt-dlp and ffmpeg and pydub and imagehash and pandoc)"
+title = "Transcribing Videos with OpenAI's Whisper and ChatGPT"
 date = 2023-03-03T00:00:00
-lastmod = 2023-03-03T00:00:00
+lastmod = 2023-03-06T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -9,7 +9,7 @@ authors = ["Carl Pearson"]
 
 tags = []
 
-summary = ""
+summary = "Transcribing Videos with OpenAI's Whisper and ChatGPT (and yt-dlp and ffmpeg and pydub and imagehash and pandoc)"
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -40,12 +40,13 @@ categories = []
 
 +++
 
+
 At $0.006/min and $0.0002/1k tokens, OpenAI's Whisper and ChatGPT APIs are cheap enough to play with.
-Let's do some back-of-the-envelope calculations about a hypothetical transcription system.
+I developed a "video-to-pdf" transcription system for recorded talks to learn more about them.
+Let's do some back-of-the-envelope calculations about this hypothetical system.
 It has two pieces - OpenAI's Whisper for the speech-to-text, and then OpenAI's ChatGPT to clean up any transcription errors and break the text into paragraphs.
 
-First, some back of the envelope calculations.
-A fast english speaker reaches around 160 words per minute.
+A fast english speaker reaches around [160 words per minute](https://virtualspeech.com/blog/average-speaking-rate-words-per-minute).
 OpenAI says each word is about 0.75 tokens for standard english, meaning our hypothetical fast, non-stop speaker is generating 120 tokens per minute, or 7200 per hour.
 If we had to pass those through ChatGPT, (one token out for each token in), we would get the following costs:
 
@@ -54,29 +55,31 @@ If we had to pass those through ChatGPT, (one token out for each token in), we w
 | Whisper | $0.006 / min       | 36 cents                  |
 | ChatGPT | $0.002 / 1k tokens | 2.88 cents                | 
 
-
 ChatGPT is basically free - Whisper is 30x as expensive -- but the whole thing still comes out to less than $0.50 to transcribe an hour of speech.
 
 ## High-Level Design
-
-Youtube -> file.webm -> Whisper -> file-1.txt...file-N.txt -> ChatGPT -> clean-1.txt...clean-N.txt -> transcript
 
 ![](arch.png)
 
 The high level design is
 
-1. Use [yt-dlp] to download a talk from Youtube.
-2. Use [ffmpeg] to extract the audio from the video
-3. Use [pydub] to detect non-silent regions of audio
-4. Use [OpenAI's Whisper] to transcribe the audio
-5. Use [OpenAI's ChatGPT] to clean up the text
-6. Use [ffmpeg] again to extract frames from the talk
-6. Use [Pandoc] to stitch the text and frames together into a summary document
+1. Use [yt-dlp](https://github.com/yt-dlp/yt-dlp) to download a talk from Youtube.
+2. Use [FFmpeg](https://github.com/FFmpeg/FFmpeg) to extract the audio from the video
+3. Use [pydub](https://github.com/jiaaro/pydub) to detect non-silent regions of audio
+4. Use [OpenAI's Whisper](https://platform.openai.com/docs/guides/speech-to-text) to transcribe the audio
+5. Use [OpenAI's ChatGPT](https://platform.openai.com/docs/guides/chat) to clean up the text
+6. Use [FFmpeg](https://github.com/FFmpeg/FFmpeg) again to extract frames from the talk
+6. Use [Pandoc](https://github.com/jgm/pandoc) to stitch the text and frames together into a summary document
 
 ## Acquiring the Source Video and Audio
 
-If you don't already have access to a talk, consider something like [yt-dlp], which will allow you to download video from most websites, including Youtube.
-Then, I use [ffmpeg] to exctact the audio track from the video.
+If you don't already have access to a talk, consider something like [yt-dlp](https://github.com/yt-dlp/yt-dlp), which will allow you to download video from most websites, including Youtube.
+Then, I use [ffmpeg](https://github.com/FFmpeg/FFmpeg) to exctact the audio track from the video.
+
+```bash
+ffmpeg -i input.mp4 -map 0:a output.mp3
+```
+
 This audio track will be provided to OpenAI's Whipser API.
 
 ## First Expected Problem: ChatGPT's Context Size
@@ -96,7 +99,7 @@ Regardless of how short the chunks are, the total audio length and words process
 
 ## Splitting Audio
 
-To (attempt to) avoid splitting words, I use [pydub] to detect silence.
+To (attempt to) avoid splitting words, I use [pydub](https://github.com/jiaaro/pydub) to detect silence.
 I arbitrarily pick a silence threshold, and relax that threshold until no noisy region is longer than our 5-minute chunk.
 That means there is (hopefully) some safe place to split the text at least every five minutes.
 
@@ -126,11 +129,15 @@ I also considered the breaks between the five-minute chunks to be paragraph brea
 The final ingredient needed is a screencapture of the video to go along with each paragraph.
 I know what timestamp is associated with each five-minute chunk, and I can look up where among the five-minute chunks each paragraph came from.
 The source chunk and location within the chunk gives a very accurate timestamp for each paragraph of text.
-I use [ffmpeg] to extract a frame from the video for each paragraph.
+I use [ffmpeg](https://github.com/FFmpeg/FFmpeg) to extract a frame from the video for each paragraph.
+
+```bash
+ffmpeg -y -ss 01:23:45 -i input.webm -frames:v 1 -q:v 2 output.jpg
+```
 
 ## The Final Summary
 
 A markdown document is generated by inserting each paragraph in turn.
 A screenshot is inserted as well, *unless* it is too similar to the last inserted screenshot.
 This happens when the speaker lingers on a slide for a while, generating a lot of text without changing the video much.
-Finally, I use [pandoc] to convert that markdown file into a PDF.
+Finally, I use [Pandoc](https://github.com/jgm/pandoc) to convert that markdown file into a PDF.
