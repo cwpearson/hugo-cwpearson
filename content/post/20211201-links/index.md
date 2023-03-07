@@ -47,7 +47,7 @@ Presented without comment or endorsement.
 
 
 
-* [A Chemical Hunger – Interlude C: Highlights from the Reddit Comments](https://slimemoldtimemold.com/2021/08/05/a-chemical-hunger-interlude-c-highlights-from-the-reddit-comments/)
+
 * [A Chemical Hunger – Interlude D: Glyphosate (AKA the active ingredient in Roundup)](https://slimemoldtimemold.com/2021/08/10/a-chemical-hunger-interlude-d-glyphosate-aka-the-active-ingredient-in-roundup/)
 * [A Chemical Hunger – Interlude E: Bad Seeds](https://slimemoldtimemold.com/2021/08/18/a-chemical-hunger-interlude-e-bad-seeds/)
 * [A Chemical Hunger – Part VIII: Paradoxical Reactions](https://slimemoldtimemold.com/2021/08/21/a-chemical-hunger-part-viii-paradoxical-reactions/)
@@ -68,6 +68,7 @@ Presented without comment or endorsement.
 * [A Chemical Hunger – Interlude B: The Nutrient Sludge Diet](https://slimemoldtimemold.com/2021/07/23/a-chemical-hunger-interlude-b-the-nutrient-sludge-diet/) ([archive](https://web.archive.org/web/20220708013953/https://slimemoldtimemold.com/2021/07/23/a-chemical-hunger-interlude-b-the-nutrient-sludge-diet/))
 * [A Chemical Hunger – Part VI: PFAS](https://slimemoldtimemold.com/2021/07/26/a-chemical-hunger-part-vi-pfas/) ([archive](https://web.archive.org/web/20220708013958/https://slimemoldtimemold.com/2021/07/26/a-chemical-hunger-part-vi-pfas/))
 * [A Chemical Hunger – Part VII: Lithium](https://slimemoldtimemold.com/2021/08/02/a-chemical-hunger-part-vii-lithium/) ([archive](https://web.archive.org/web/20221124171209/https://slimemoldtimemold.com/2021/08/02/a-chemical-hunger-part-vii-lithium/))
+* [A Chemical Hunger – Interlude C: Highlights from the Reddit Comments](https://slimemoldtimemold.com/2021/08/05/a-chemical-hunger-interlude-c-highlights-from-the-reddit-comments/) ([archive]())
 
 ## October 2022
 
