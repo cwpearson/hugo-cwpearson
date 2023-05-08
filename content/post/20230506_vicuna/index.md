@@ -140,4 +140,8 @@ I had `fschat 0.2.5`.
 
 ## Start Chatting
 
+This will open up a little Chat-GPT-style interface in your terminal.
+
+```
 python3 -m fastchat.serve.cli --device cpu --model-path vicuna-13b/
+```
