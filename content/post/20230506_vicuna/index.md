@@ -39,7 +39,11 @@ categories = []
 
 +++
 
-Vicuna-13B is an LLM based off of the LLaMa model.
+Vicuna-13B is an LLM chatbot based off of the LLaMa model.
+It's authors claim it achieves 90% of the quality of ChatGPT in a "fun and non-scientific" evaluation.
+
+You can rent some cloud hardware and experiment with Vicuna 13B yourself!
+Using CPU-only is slow (couple tokens per second), but fast enough for yout to get an idea of what to expect.
 
 ## Set up your Cloud Instance
 
@@ -125,7 +129,7 @@ I got an error about regenerating protobuf functions if I used protobuf > 3.20.
 
 ## Apply the vicuna deltas
 
-FastChat has done the work of getting a little chat interface set up.
+[FastChat](https://github.com/lm-sys/FastChat) has done the work of getting a little chat interface set up.
 We'll use their package to download the deltas and apply them as well.
 
 ```
