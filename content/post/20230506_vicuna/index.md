@@ -1,5 +1,5 @@
 +++
-title = "Running Vicuna-13B in the Cloud"
+title = "Running Vicuna-13B in Google Cloud"
 date = 2023-05-06T00:00:00
 lastmod = 2023-05-06T00:00:00
 draft = false
@@ -9,7 +9,7 @@ authors = ["Carl Pearson"]
 
 tags = []
 
-summary = ""
+summary = "How to experiment with hosting Vicuna-13B on a cloud VM"
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -47,7 +47,9 @@ Create a cloud VM with
 * 150 GB of disk space
 * 64 GB of CPU memory
 
-When everything was done, my VM had 132GB of disk space used, so you'll probably want at least 150GB
+I used a Google Compute Engine `e2-standard-16`, which costs around $0.70/hour, so it may not be something you want to leave running. You can stop the instance when you're not using it.
+
+When everything was done, my VM had 132GB of disk space used.
 
 Ordinarily I wouldn't recommend setting up python like this, but since we're just experimenting:
 
