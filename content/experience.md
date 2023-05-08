@@ -8,6 +8,7 @@ author = "Carl Pearson"
 
 ## Community
 
+- ICPP'23 program committee member
 - ISC'23 workshop commitee member
 - IPDPS'23 AsHES Workshop program committee member
 - SC'22 ExaMPI Workshop program committee member
