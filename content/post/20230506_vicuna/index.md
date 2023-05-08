@@ -39,7 +39,7 @@ categories = []
 
 +++
 
-Vicuna-13B is an LLM chatbot based off of the LLaMa model.
+[Vicuna-13B](https://lmsys.org/blog/2023-03-30-vicuna/) is an LLM chatbot based off of the LLaMa model.
 It's authors claim it achieves 90% of the quality of ChatGPT in a "fun and non-scientific" evaluation.
 
 You can rent some cloud hardware and experiment with Vicuna 13B yourself!
