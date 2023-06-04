@@ -1,7 +1,7 @@
 +++
 title = "Interesting Links"
 date = 2022-11-26T00:00:00
-lastmod = 2022-11-27T00:00:00
+lastmod = 2023-06-04T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -57,6 +57,14 @@ Presented without comment or endorsement.
 * [A Chemical Hunger – Interlude H: Well Well Well](https://slimemoldtimemold.com/2021/10/19/a-chemical-hunger-interlude-h-well-well-well/)
 * [A Chemical Hunger – Interlude I: The Fattest Cities in the Land](https://slimemoldtimemold.com/2021/11/08/a-chemical-hunger-interlude-i-the-fattest-cities-in-the-land/) 
 * [A Chemical Hunger – Part X: What to Do About It](https://slimemoldtimemold.com/2021/11/23/a-chemical-hunger-part-x-what-to-do-about-it/)-->
+
+## May 2023
+
+* [Sandspiel](https://sandspiel.club/#)
+* [DALLE mini](https://craiyon.com)
+* [The Scaling Hyopthesis](https://gwern.net/scaling-hypothesis)
+* [Learning the Elite Class](https://aella.substack.com/p/learning-the-elite-class)
+* [I'm trying to put a command in a variable, but the complex cases always fail!](http://mywiki.wooledge.org/Bash/FAQ/050)
 
 ## November 2022
 
