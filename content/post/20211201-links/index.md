@@ -58,6 +58,10 @@ Presented without comment or endorsement.
 * [A Chemical Hunger – Interlude I: The Fattest Cities in the Land](https://slimemoldtimemold.com/2021/11/08/a-chemical-hunger-interlude-i-the-fattest-cities-in-the-land/) 
 * [A Chemical Hunger – Part X: What to Do About It](https://slimemoldtimemold.com/2021/11/23/a-chemical-hunger-part-x-what-to-do-about-it/)-->
 
+## June 2023
+
+* [DreamBerd Programming Language](https://github.com/TodePond/DreamBerd)
+
 ## May 2023
 
 * [Sandspiel](https://sandspiel.club/#)
@@ -67,6 +71,8 @@ Presented without comment or endorsement.
 * [I'm trying to put a command in a variable, but the complex cases always fail!](http://mywiki.wooledge.org/Bash/FAQ/050)
 * [(manifold) Will and independent RCT study evaluating Silexan  for anxiety find a standardized effect size greater than 0.5?](https://manifold.markets/AlvarodeMenard/will-an-independent-rct-study-evalu)
 * [Things your manager might not know](jvns.ca/blog/things-your-manager-might-not-know/)
+* [doodle : ai](https://doodleai.darraghoriordan.com/)
+
 
 ## November 2022
 
