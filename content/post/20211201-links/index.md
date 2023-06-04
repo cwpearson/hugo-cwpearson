@@ -65,6 +65,8 @@ Presented without comment or endorsement.
 * [The Scaling Hyopthesis](https://gwern.net/scaling-hypothesis)
 * [Learning the Elite Class](https://aella.substack.com/p/learning-the-elite-class)
 * [I'm trying to put a command in a variable, but the complex cases always fail!](http://mywiki.wooledge.org/Bash/FAQ/050)
+* [(manifold) Will and independent RCT study evaluating Silexan  for anxiety find a standardized effect size greater than 0.5?](https://manifold.markets/AlvarodeMenard/will-an-independent-rct-study-evalu)
+* [Things your manager might not know](jvns.ca/blog/things-your-manager-might-not-know/)
 
 ## November 2022
 
