@@ -8,7 +8,7 @@ author = "Carl Pearson"
 
 ## Community
 
-- AsHES'24 Program chair
+- IPDPS'24 AsHES workshop program chair
 - SC'23 ExaMPI workshop committee member
 - ICPP'23 program committee member
 - ISC'23 workshop commitee member
